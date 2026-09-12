@@ -1,408 +1,623 @@
 # 🎓 Student Retention & Welfare Efficacy Tracker
 
-> **From Messy Student Data to Actionable Retention & Welfare Insights**
+> ### From Messy Student Data to Actionable Retention & Welfare Insights
 
-## 📌 Overview
+**Student Retention & Welfare Efficacy Tracker** is a data-driven Education & EdTech analytics platform designed to transform messy student data into reliable insights for **student retention, academic performance, risk identification, and welfare intervention analysis**.
 
-The **Student Retention & Welfare Efficacy Tracker** is a data-driven analytics platform designed to help educational institutions identify students who may be at risk of disengagement or dropout and evaluate the effectiveness of academic and welfare interventions.
+The platform combines:
 
-The system transforms messy and inconsistent student data into clean, structured, analytics-ready information and converts it into actionable insights through data analytics, machine learning, interactive visualizations, and an AI-powered analytical assistant.
+- 🧹 Data Rescue & Cleaning
+- 📊 SQL-Based Analytics
+- 🚨 Student Risk Analysis
+- 🧠 Machine Learning
+- 📈 Interactive Dashboard
+- 🤖 Natural-Language AI Analyst
+- 🔄 Reproducible Data Pipeline
 
-Instead of relying mainly on reactive identification of struggling students, the platform aims to provide **early, data-driven indicators** that can help faculty, administrators, and student-support teams take appropriate action.
+The goal is simple:
+
+> **Clean the data. Understand the risk. Measure the impact. Support students earlier.**
 
 ---
 
-## 🎯 Problem
+# 📌 Overview
 
-Educational institutions collect student information from multiple academic, attendance, engagement, and welfare-related sources.
+Educational institutions collect large amounts of student information from different academic, attendance, engagement, and welfare-related sources.
 
-However, this data can contain:
+However, real-world datasets are rarely clean.
 
-- Duplicate student records
+Student records may contain:
+
+- Duplicate records
 - Missing values
-- Inconsistent student IDs
-- Different department naming conventions
-- Inconsistent attendance formats
+- Inconsistent IDs
+- Different department names
+- Different attendance formats
 - Incorrect data types
-- Inconsistent categorical values
-- Incomplete academic information
-- Broken relationships between datasets
+- Invalid values
+- Inconsistent categories
+- Broken relationships between records
 
-These problems make it difficult to obtain a reliable picture of student retention and welfare.
+These issues make it difficult for institutions to obtain reliable insights.
 
-Without a unified analytical system, institutions may struggle to answer:
+Our platform provides an end-to-end pipeline that transforms messy student data into a structured analytical system.
 
-- Which students are at higher risk of dropping out?
+```mermaid
+flowchart TD
+
+    A["📂 Messy Student Data"] --> B["🧹 Data Rescue"]
+    
+    B --> C["✅ Data Validation"]
+    
+    C --> D["🗃️ Clean Student Data"]
+    
+    D --> E["📊 Analytics Layer"]
+    
+    E --> F["🎓 Retention Analysis"]
+    E --> G["🚨 Risk Analysis"]
+    E --> H["🤝 Welfare Analysis"]
+    
+    F --> I["📈 Executive Dashboard"]
+    G --> I
+    H --> I
+    
+    I --> J["🤖 AI Analyst"]
+    
+    J --> K["💡 Actionable Insights"]
+    
+    K --> L["🎯 Student Support"]
+```
+
+---
+
+# 🎯 Problem Statement
+
+## Student Retention & Welfare Efficacy Tracker
+
+Educational institutions need to understand why students may become academically disengaged or require additional support.
+
+But when information is spread across inconsistent datasets, answering important questions becomes difficult.
+
+### Key Questions
+
+- Which students may be at higher risk?
 - Which departments have lower retention?
-- Is attendance associated with retention?
+- Is attendance associated with academic performance?
 - Which students require additional support?
-- Are welfare interventions improving student outcomes?
-- Which intervention programs are most effective?
+- Are welfare interventions improving outcomes?
+- Which intervention programs appear more effective?
 - Where should institutional resources be prioritized?
 
-The project aims to move from **reactive student support to proactive, data-driven decision-making**.
+The project aims to move from:
+
+> **Reactive Student Support → Proactive Data-Driven Intelligence**
 
 ---
 
-## 💡 Proposed Solution
+# 💡 Proposed Solution
 
-Our platform follows an end-to-end approach:
+The proposed platform follows an end-to-end data and analytics architecture.
 
-**Messy Data → Data Rescue → Data Validation → Analytics → Risk Analysis → Dashboard → AI Insights**
+```mermaid
+flowchart LR
 
-The system first processes messy student data to detect duplicates, missing values, inconsistent formats, invalid records, and broken relationships.
+    A["Raw / Messy Data"] --> B["Data Cleaning"]
+    B --> C["Validation"]
+    C --> D["Analytics Database"]
+    
+    D --> E["Business Metrics"]
+    D --> F["Risk Model"]
+    D --> G["Welfare Analysis"]
+    
+    E --> H["Dashboard"]
+    F --> H
+    G --> H
+    
+    H --> I["AI Analyst"]
+    
+    I --> J["Natural Language Insights"]
+```
 
-The cleaned data is then transformed into a structured analytical model.
+The system separates the workflow into clear layers:
 
-Analytics and SQL queries are used to calculate retention, attendance, academic performance, risk, and welfare-related metrics.
-
-The resulting insights are presented through an interactive dashboard designed for educational decision-makers.
-
-An AI Analyst provides an optional natural-language interface through which users can ask analytical questions and receive appropriate results and visualizations.
+| Layer | Purpose |
+|---|---|
+| Data Rescue | Clean and standardize messy data |
+| Validation | Detect invalid and suspicious records |
+| Analytics | Generate meaningful business metrics |
+| Risk Analysis | Identify students requiring attention |
+| Welfare Analysis | Evaluate intervention outcomes |
+| Dashboard | Present insights interactively |
+| AI Analyst | Allow natural-language analytical queries |
 
 ---
 
-## 🧹 Data Rescue & Data Quality
+# 🧹 Data Rescue & Data Quality
 
-Data rescue is one of the core components of the platform.
+Data Rescue is one of the core components of the project.
 
-The pipeline is designed to identify and resolve common problems found in messy enterprise-style student datasets.
+The pipeline identifies and handles common problems found in messy enterprise-style datasets.
 
-### Data Cleaning Operations
+## Data Cleaning Operations
 
-- Duplicate record detection
-- Student ID normalization
-- Missing-value detection
-- Invalid-value detection
-- Data-type correction
-- Department normalization
-- Category standardization
-- Attendance normalization
-- Date standardization
-- Outlier detection
-- Relationship validation
-- Data-quality reporting
+- 🔍 Duplicate detection
+- 🆔 Student ID normalization
+- 🧩 Relationship validation
+- ❌ Missing-value detection
+- ⚠️ Invalid-value detection
+- 🔢 Data-type correction
+- 🏫 Department normalization
+- 📋 Category standardization
+- 📊 Attendance normalization
+- 📅 Date standardization
+- 📈 Outlier detection
+- 📋 Data-quality reporting
 
-📊 Analytics Layer
+---
 
-The analytics layer converts cleaned student information into meaningful institutional metrics.
+# 🧪 Example: Messy Student Data
 
-Key Metrics
-Total Students
-Retained Students
-Retention Rate
-At-Risk Students
-Average CGPA
-Average Attendance
-Academic Risk
-Attendance Risk
-Welfare Support Coverage
-Intervention Success Rate
-Department-wise Retention
-Semester-wise Retention
-Academic Performance Distribution
-Retention Analysis
+### Before Cleaning
 
-The system can analyze retention patterns across:
+| Student ID | Department | Attendance | CGPA |
+|---|---|---:|---:|
+| 101 | CSE | 85% | 8.2 |
+| 101 | cse | 85 | 8.20 |
+| 102 | Computer Sci | 0.78 | 7.5 |
 
-Departments
-Semesters
-Academic performance levels
-Attendance groups
-Student-risk categories
-Welfare intervention groups
+The same information can appear in different formats.
 
-This enables decision-makers to identify areas requiring additional attention.
+For example:
 
-🚨 Student Risk Analysis
+- `CSE`
+- `cse`
+- `Computer Sci`
+
+And attendance may appear as:
+
+- `85%`
+- `85`
+- `0.85`
+
+---
+
+## After Data Rescue
+
+| Student ID | Department | Attendance | CGPA |
+|---|---|---:|---:|
+| 101 | CSE | 85% | 8.20 |
+| 102 | CSE | 78% | 7.50 |
+
+The pipeline creates a standardized representation.
+
+```text
+Raw Data
+   ↓
+Cleaned Data
+   ↓
+Validated Data
+   ↓
+Analytics Data
+```
+
+This improves:
+
+- Reproducibility
+- Data consistency
+- Query reliability
+- Analytics quality
+- Dashboard accuracy
+
+---
+
+# 📊 Analytics Layer
+
+The analytics layer converts cleaned student data into meaningful institutional metrics.
+
+## Key Metrics
+
+| Metric | Purpose |
+|---|---|
+| Total Students | Overall student population |
+| Retained Students | Number of retained students |
+| Retention Rate | Overall retention performance |
+| At-Risk Students | Students showing risk indicators |
+| Average CGPA | Academic performance overview |
+| Average Attendance | Attendance overview |
+| Academic Risk | Academic warning indicators |
+| Attendance Risk | Attendance-related risk |
+| Welfare Support | Support coverage |
+| Intervention Success | Intervention outcome |
+| Department Retention | Department comparison |
+| Semester Retention | Trend analysis |
+| Performance Distribution | Academic distribution |
+
+---
+
+# 🎓 Retention Analysis
+
+The system can analyze retention patterns across different dimensions.
+
+### Analysis Dimensions
+
+- Departments
+- Semesters
+- Academic performance
+- Attendance groups
+- Risk categories
+- Welfare interventions
+
+Example analytical question:
+
+> Which department has the lowest retention rate?
+
+The analytics engine can calculate the result and present it using an appropriate visualization.
+
+---
+
+# 🚨 Student Risk Analysis
 
 The platform provides analytical indicators for students who may require additional academic or welfare support.
 
-Potential risk indicators include:
+## Potential Risk Indicators
 
-Low attendance
-Low CGPA
-Increasing academic difficulties
-Backlogs
-Previous intervention history
-Welfare-support requirements
-Engagement indicators
-Historical retention patterns
+- Low attendance
+- Low CGPA
+- Academic difficulties
+- Backlogs
+- Previous interventions
+- Welfare-support requirements
+- Engagement indicators
+- Historical retention patterns
 
-Students can be grouped into analytical risk categories:
+---
 
-LOW RISK
-Stable academic and engagement indicators
+## Risk Categories
 
-MEDIUM RISK
-One or more warning indicators
+```mermaid
+flowchart TD
 
-HIGH RISK
-Multiple indicators requiring closer attention
+    A["Student Record"] --> B{"Risk Indicators"}
+    
+    B -->|"Few / No Warning Indicators"| C["🟢 Low Risk"]
+    
+    B -->|"Some Warning Indicators"| D["🟡 Medium Risk"]
+    
+    B -->|"Multiple Warning Indicators"| E["🔴 High Risk"]
+```
 
-Risk scores are intended to support human decision-making and should not be treated as automatic judgments about a student.
+### 🟢 Low Risk
 
-🧠 AI & Machine Learning
+Stable academic and engagement indicators.
+
+### 🟡 Medium Risk
+
+One or more warning indicators are present.
+
+### 🔴 High Risk
+
+Multiple indicators suggest that closer attention may be appropriate.
+
+> ⚠️ Risk scores are intended as **decision-support indicators** and should not be treated as automatic judgments about students.
+
+---
+
+# 🧠 Machine Learning
 
 Machine-learning techniques can be used to identify patterns associated with student retention and academic risk.
 
-Possible approaches include:
+## Possible Approaches
 
-Classification
-Risk scoring
-Student segmentation
-Feature analysis
-Retention prediction
+- Classification
+- Risk scoring
+- Student segmentation
+- Feature analysis
+- Retention prediction
 
-The system evaluates models using actual validation results from the available dataset.
+The system is designed to evaluate models using actual validation results.
 
-No artificial or hardcoded model accuracy is used.
+> **No artificial or hardcoded accuracy is used.**
 
-The final model and evaluation metrics depend on the dataset and experiments performed during implementation.
+Final model performance depends on:
 
-🤖 AI Analyst
+- Dataset characteristics
+- Available features
+- Data quality
+- Train/test split
+- Model selection
+- Feature engineering
 
-The optional AI Analyst allows users to interact with the analytics system using natural language.
+---
 
-Example questions include:
+# 🤖 AI Analyst
 
+The AI Analyst provides a natural-language interface for interacting with the analytics system.
+
+Instead of manually writing SQL queries, users can ask questions in normal language.
+
+## Example Questions
+
+```text
 Show students with attendance below 60%.
+```
+
+```text
 Compare retention rates across departments.
+```
+
+```text
 Which department has the highest number of at-risk students?
+```
+
+```text
 Show the relationship between attendance and CGPA.
+```
+
+```text
 Which welfare intervention has the best outcome?
-AI Agent Workflow
-User Question
-      ↓
-Intent Detection
-      ↓
-Schema Identification
-      ↓
-SQL Generation
-      ↓
-SQL Validation
-      ↓
-Query Execution
-      ↓
-Result Analysis
-      ↓
-Chart Selection
-      ↓
-Visualization
-      ↓
-Natural-Language Explanation
+```
 
-The AI Analyst operates on the structured analytics layer rather than directly manipulating raw student data.
+---
 
-📈 Executive Dashboard
+# 🔄 AI Agent Workflow
 
-The platform provides an interactive dashboard for monitoring student retention and welfare indicators.
+```mermaid
+flowchart LR
 
-Dashboard Components
-Student population overview
-Retention rate
-At-risk student count
-Average CGPA
-Average attendance
-Department-wise retention
-Risk distribution
-Academic performance
-Welfare intervention analysis
-Semester trends
-Student-level analytical tables
-Interactive filters
-AI Analyst
+    A["💬 User Question"] --> B["🧠 Intent Detection"]
+    
+    B --> C["🗂️ Schema Identification"]
+    
+    C --> D["🔎 SQL Generation"]
+    
+    D --> E["🛡️ SQL Validation"]
+    
+    E --> F["🗃️ DuckDB Execution"]
+    
+    F --> G["📊 Result Analysis"]
+    
+    G --> H["📈 Chart Selection"]
+    
+    H --> I["💡 Natural Language Explanation"]
+```
 
-The dashboard is designed to help administrators move from high-level institutional metrics to detailed student-level analysis.
+The AI Analyst operates on the structured analytics layer instead of directly modifying raw student data.
 
-📊 Visualization
+---
 
-Different visualization techniques are selected according to the analytical requirement.
+# 🛡️ AI Safety
 
-Analytical Purpose	Visualization
-Department comparison	Bar Chart
-Retention trend	Line Chart
-Risk distribution	Donut Chart
-CGPA distribution	Histogram
-Attendance vs CGPA	Scatter Plot
-Student ranking	Horizontal Bar Chart
-Important metric	KPI Card
+The AI analytics layer is designed to operate as a read-only analytical assistant.
 
-The goal is to make complex student data easier to understand and turn analytics into actionable insights.
+Allowed operations:
 
-🔄 System Workflow
-                    MESSY STUDENT DATA
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │     DATA RESCUE     │
-                 │ Cleaning & Validation│
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                    CLEAN STUDENT DATA
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │   ANALYTICS LAYER   │
-                 │   Python + SQL      │
-                 │      DuckDB         │
-                 └──────────┬──────────┘
-                            │
-                ┌───────────┴───────────┐
-                ▼                       ▼
-        RETENTION ANALYSIS        RISK ANALYSIS
-                │                       │
-                └───────────┬───────────┘
-                            │
-                            ▼
-                  EXECUTIVE DASHBOARD
-                            │
-                            ▼
-                      AI ANALYST
-                            │
-                            ▼
-                   ACTIONABLE INSIGHTS
-                            │
-                            ▼
-                  STUDENT SUPPORT
-🌟 Key Features
-🧹 Automated student-data cleaning
-🔍 Duplicate detection
-✅ Data validation
-📋 Data-quality reporting
-📊 Retention analytics
-🎓 Academic performance analysis
-🚨 Student risk analysis
-🤝 Welfare intervention analysis
-📈 Interactive executive dashboard
-🔎 Department and semester filtering
-🤖 Natural-language AI Analyst
-🗃️ SQL-based analytics
-🔄 Reproducible data pipeline
-🧪 Automated testing
-📊 Dynamic visualization
-🎯 Welfare Efficacy Analysis
+```sql
+SELECT
+```
 
-The system is designed not only to identify students requiring support, but also to examine whether interventions are producing measurable outcomes.
+Potentially destructive operations should be blocked:
 
-Possible intervention indicators include:
+```text
+DROP
+DELETE
+UPDATE
+INSERT
+ALTER
+TRUNCATE
+CREATE
+```
 
-Academic counseling
-Attendance support
-Mentoring
-Welfare assistance
-Financial support
-Student engagement programs
+The AI Analyst should never be allowed to execute arbitrary system commands or unrestricted Python code.
 
-The analytics layer can compare outcomes before and after intervention where the available dataset supports such analysis.
+---
 
-This helps institutions move from:
+# 📈 Executive Dashboard
 
-"How many students received support?"
+The dashboard provides an interactive view of institutional student analytics.
+
+## Dashboard Components
+
+### Overview
+
+- Total students
+- Retention rate
+- At-risk students
+- Average CGPA
+- Average attendance
+
+### Academic Analytics
+
+- CGPA distribution
+- Attendance distribution
+- Attendance vs CGPA
+- Department performance
+- Semester trends
+
+### Retention Analytics
+
+- Department-wise retention
+- Semester-wise retention
+- Risk distribution
+- Retention trends
+
+### Welfare Analytics
+
+- Support coverage
+- Intervention distribution
+- Intervention outcomes
+- Intervention effectiveness
+
+### Student-Level Analytics
+
+- Student records
+- Risk indicators
+- Academic indicators
+- Attendance information
+
+---
+
+# 📊 Visualization Strategy
+
+Different charts are used depending on the analytical question.
+
+| Analytical Purpose | Visualization |
+|---|---|
+| Department comparison | 📊 Bar Chart |
+| Retention trend | 📈 Line Chart |
+| Risk distribution | 🍩 Donut Chart |
+| CGPA distribution | 📊 Histogram |
+| Attendance vs CGPA | 🔵 Scatter Plot |
+| Student ranking | 📊 Horizontal Bar Chart |
+| Important metric | 🔢 KPI Card |
+
+The objective is to make complex data understandable at a glance.
+
+---
+
+# 🤝 Welfare Efficacy Analysis
+
+The platform is designed not only to identify students who may require support, but also to examine whether interventions produce measurable outcomes.
+
+## Possible Intervention Categories
+
+- Academic counseling
+- Attendance support
+- Mentoring
+- Welfare assistance
+- Financial support
+- Student engagement programs
+
+Where the dataset supports it, the system can compare outcomes before and after intervention.
+
+This changes the question from:
+
+> **"How many students received support?"**
 
 to:
 
-"What impact did the support have?"
+> **"What impact did the support have?"**
 
-💼 Business Insights
+---
 
-The platform converts raw student information into decision-support insights.
+# 💼 Business Insights
 
-Example
-Observation:
-A department has a retention rate below the institutional average.
+The platform converts analytical results into decision-support insights.
 
-Supporting indicators:
-- Lower average attendance
-- Higher academic-risk population
-- Increased intervention requirements
+### Example Scenario
 
-Potential Action:
-Prioritize academic advising, mentoring, and welfare support
-for students showing multiple risk indicators.
+```text
+Observation
+    ↓
+A department has a retention rate below
+the institutional average.
+    ↓
+Supporting Indicators
+    ↓
+Lower average attendance
++
+Higher academic-risk population
++
+Higher intervention requirements
+    ↓
+Potential Action
+    ↓
+Prioritize mentoring, academic advising,
+and welfare support for students
+showing multiple risk indicators.
+```
 
-The system focuses on identifying patterns that can support institutional decision-making rather than simply displaying raw statistics.
+The purpose is not simply to display numbers.
 
-🌍 Impact & Scalability
+The purpose is to help decision-makers understand:
 
-The platform can support:
+**What happened? → Why might it matter? → Where should attention be focused?**
 
-Educational institutions
-Universities
-Colleges
-Academic administrators
-Faculty advisors
-Student welfare departments
-Institutional planning teams
+---
 
-Potential benefits include:
+# 🌟 Key Features
 
-Earlier identification of students needing support
-Better allocation of welfare resources
-Data-driven intervention planning
-Improved visibility into retention patterns
-Measurement of intervention effectiveness
-Faster access to institutional insights
+- 🧹 Automated student-data cleaning
+- 🔍 Duplicate detection
+- 🆔 ID normalization
+- ✅ Data validation
+- 📋 Data-quality reporting
+- 📊 Retention analytics
+- 🎓 Academic performance analysis
+- 🚨 Student risk analysis
+- 🤝 Welfare intervention analysis
+- 📈 Interactive dashboard
+- 🔎 Department and semester filtering
+- 🤖 Natural-language AI Analyst
+- 🗃️ SQL-based analytics
+- 🔄 Reproducible pipeline
+- 🧪 Automated testing
+- 📊 Dynamic visualizations
 
-The architecture can be extended to additional institutions and larger student datasets.
+---
 
-🔮 Future Scope
+# 🏗️ System Architecture
 
-The platform can be extended with:
+```mermaid
+flowchart TB
 
-Real-time student-risk monitoring
-Automated intervention recommendations
-Explainable AI for risk predictions
-Personalized student-support recommendations
-Early-warning notifications
-Learning Management System integration
-Student engagement analytics
-Scholarship and financial-aid analysis
-Placement and internship analytics
-Longitudinal student journey analysis
-Advanced AI-powered institutional analytics
-🔐 Responsible Data Usage
+    subgraph DATA["📂 DATA LAYER"]
+        A["Raw Student Data"]
+        B["Messy / Inconsistent Records"]
+    end
 
-Student data can contain sensitive information.
+    subgraph CLEAN["🧹 DATA RESCUE"]
+        C["Cleaning"]
+        D["Validation"]
+        E["Normalization"]
+        F["Quality Report"]
+    end
 
-The platform should therefore follow responsible data practices:
+    subgraph ANALYTICS["📊 ANALYTICS"]
+        G["DuckDB"]
+        H["SQL Queries"]
+        I["Business Metrics"]
+    end
 
-Use anonymized or synthetic data where appropriate
-Avoid unnecessary personally identifiable information
-Protect sensitive student records
-Restrict access to authorized users
-Avoid automated decisions that negatively affect students
-Use predictive results as decision-support indicators
+    subgraph INTELLIGENCE["🧠 INTELLIGENCE"]
+        J["Risk Analysis"]
+        K["Machine Learning"]
+        L["Welfare Analysis"]
+    end
 
-The system is intended to support human decision-making, not replace academic or welfare professionals.
+    subgraph PRESENTATION["📈 PRESENTATION"]
+        M["Streamlit Dashboard"]
+        N["Plotly Visualizations"]
+        O["AI Analyst"]
+    end
 
-🛠️ Technology Stack
-Data Engineering
-Python
-Pandas
-SQL
-DuckDB
-Analytics
-Python
-SQL
-Plotly
-Machine Learning
-Scikit-learn
-Dashboard
-Streamlit
-Plotly
-AI Analyst
-Open-source / Local LLM
-Natural Language Processing
-SQL Generation
-Rule-based fallback
-Development
-Git
-GitHub
-Python Virtual Environment
-Automated Testing
-📁 Project Structure
+    A --> C
+    B --> C
+
+    C --> D
+    D --> E
+    E --> F
+
+    E --> G
+    G --> H
+    H --> I
+
+    I --> J
+    I --> K
+    I --> L
+
+    J --> M
+    K --> M
+    L --> M
+
+    M --> N
+    M --> O
+```
+
+---
+
+# 📁 Project Structure
+
+```text
 Student-Retention-Welfare-Tracker-01/
 │
 ├── README.md
@@ -426,110 +641,398 @@ Student-Retention-Welfare-Tracker-01/
 │   └── exploration.ipynb
 │
 ├── src/
+│   ├── config/
+│   │   └── settings.py
+│   │
 │   ├── data/
+│   │   ├── loader.py
+│   │   ├── cleaner.py
+│   │   ├── validator.py
+│   │   ├── normalizer.py
+│   │   └── quality_report.py
+│   │
 │   ├── analytics/
+│   │   ├── database.py
+│   │   ├── queries.py
+│   │   ├── metrics.py
+│   │   └── insights.py
+│   │
 │   ├── ml/
+│   │   ├── features.py
+│   │   ├── train.py
+│   │   ├── predict.py
+│   │   └── model.py
+│   │
 │   ├── agent/
+│   │   ├── agent.py
+│   │   ├── intent.py
+│   │   ├── query_generator.py
+│   │   ├── query_validator.py
+│   │   ├── chart_selector.py
+│   │   └── prompts.py
+│   │
 │   └── utils/
+│       ├── logging.py
+│       └── helpers.py
 │
 ├── app/
 │   ├── streamlit_app.py
+│   │
 │   ├── components/
+│   │   ├── sidebar.py
+│   │   ├── kpi_cards.py
+│   │   ├── charts.py
+│   │   ├── tables.py
+│   │   └── agent_chat.py
+│   │
 │   └── pages/
+│       ├── 01_Executive_Dashboard.py
+│       ├── 02_Data_Quality.py
+│       ├── 03_Student_Analytics.py
+│       ├── 04_Risk_Analysis.py
+│       └── 05_AI_Analyst.py
 │
 ├── api/
 │   ├── main.py
 │   └── routes/
+│       ├── students.py
+│       ├── analytics.py
+│       └── agent.py
 │
 ├── tests/
+│   ├── test_cleaner.py
+│   ├── test_validator.py
+│   ├── test_metrics.py
+│   ├── test_queries.py
+│   └── test_agent.py
 │
 └── scripts/
     ├── generate_messy_data.py
     ├── clean_data.py
     ├── build_database.py
     └── train_model.py
-🔁 Reproducible Pipeline
+```
 
-The project is designed around a reproducible processing pipeline.
+---
 
-# Prepare the dataset
+# 🛠️ Technology Stack
+
+## Data Engineering
+
+- Python
+- Pandas
+- SQL
+- DuckDB
+
+## Analytics
+
+- Python
+- SQL
+- Plotly
+
+## Machine Learning
+
+- Scikit-learn
+
+## Dashboard
+
+- Streamlit
+- Plotly
+
+## AI Analyst
+
+- Open-source / Local LLM
+- Natural Language Processing
+- SQL Generation
+- Rule-based fallback
+
+## Development
+
+- Git
+- GitHub
+- Python Virtual Environment
+- Automated Testing
+
+---
+
+# 🔁 Reproducible Pipeline
+
+The project is designed so that the complete data workflow can be reproduced.
+
+## Step 1 — Prepare Data
+
+```bash
 python scripts/generate_messy_data.py
+```
 
-# Clean and validate the data
+## Step 2 — Clean Data
+
+```bash
 python scripts/clean_data.py
+```
 
-# Build the analytics database
+## Step 3 — Build Analytics Database
+
+```bash
 python scripts/build_database.py
+```
 
-# Train the machine-learning model
+## Step 4 — Train Model
+
+```bash
 python scripts/train_model.py
+```
 
-# Start the dashboard
+## Step 5 — Start Dashboard
+
+```bash
 streamlit run app/streamlit_app.py
+```
 
-The final commands may vary depending on the implemented project configuration.
+---
 
-📋 Data Dictionary
+# ⚙️ Installation
 
-The project maintains documentation describing the fields used by the analytics pipeline.
+## Clone the Repository
 
-Typical attributes may include:
+```bash
+git clone https://github.com/YOUR-USERNAME/Student-Retention-Welfare-Tracker-01.git
+```
 
-Field	Description
-Student ID	Unique student identifier
-Name	Student name
-Department	Academic department
-Semester	Current semester
-Attendance	Attendance percentage
-CGPA	Academic performance indicator
-Backlogs	Number of academic backlogs
-Retention Status	Student retention outcome
-Welfare Support	Welfare support indicator
-Intervention	Intervention information
-Risk Level	Analytical risk category
+```bash
+cd Student-Retention-Welfare-Tracker-01
+```
 
-The final data dictionary will reflect the actual fields present in the organizer-provided dataset.
+## Create Virtual Environment
 
-🧪 Testing
+### Windows
 
-The project includes tests for important components including:
+```bash
+python -m venv .venv
+```
 
-Data cleaning
-Data validation
-Analytics calculations
-SQL queries
-Risk analysis
-AI-agent behavior
+```bash
+.venv\Scripts\activate
+```
 
-Testing helps ensure that the data pipeline and analytical outputs remain reliable and reproducible.
+### Linux / macOS
 
-🏆 Project Goal
+```bash
+python3 -m venv .venv
+```
 
-Our goal is to transform messy educational data into actionable intelligence that helps institutions identify student risks earlier, evaluate welfare interventions, and make better student-support decisions.
+```bash
+source .venv/bin/activate
+```
 
-The platform aims to move education analytics from:
+## Install Dependencies
 
-Reactive Support → Proactive Intelligence
+```bash
+pip install -r requirements.txt
+```
 
-Clean the data. Understand the risk. Measure the impact. Support students earlier.
+## Run the Application
 
-🏫 Hackathon
+```bash
+streamlit run app/streamlit_app.py
+```
 
-Track: Education & EdTech
+---
 
-Problem Statement:
-Student Retention & Welfare Efficacy Tracker
+# 📋 Data Dictionary
 
-Event:
-TransOrg AgentIQ Datathon — From Messy Data to Agentic Insights
+The final data dictionary should reflect the actual fields provided in the organizer dataset.
 
-📄 License
+Typical fields may include:
 
-This project is licensed under the MIT License.
+| Field | Description |
+|---|---|
+| Student ID | Unique student identifier |
+| Name | Student name |
+| Department | Academic department |
+| Semester | Current academic semester |
+| Attendance | Attendance percentage |
+| CGPA | Academic performance indicator |
+| Backlogs | Number of academic backlogs |
+| Retention Status | Student retention outcome |
+| Welfare Support | Welfare support indicator |
+| Intervention | Intervention information |
+| Risk Level | Analytical risk category |
 
-See the LICENSE file for details.
+---
 
-⭐ Project Vision
+# 🧪 Testing
 
-From messy student data to proactive student support.
+Testing is included for important parts of the data and analytics pipeline.
 
+### Test Areas
+
+- Data cleaning
+- Data validation
+- Duplicate detection
+- Metric calculations
+- SQL queries
+- Risk analysis
+- AI-agent behavior
+
+Run tests with:
+
+```bash
+pytest
+```
+
+---
+
+# 🔐 Responsible Data Usage
+
+Student information may contain sensitive or personally identifiable data.
+
+The project therefore follows responsible-data principles.
+
+### Principles
+
+- Use anonymized or synthetic data where appropriate
+- Avoid unnecessary personally identifiable information
+- Protect sensitive student information
+- Restrict access to authorized users
+- Avoid unfair automated decisions
+- Treat risk predictions as decision-support indicators
+- Keep humans involved in important student-support decisions
+
+> The system is designed to **support academic and welfare professionals, not replace them**.
+
+---
+
+# 🌍 Impact & Scalability
+
+The platform can potentially support:
+
+- Universities
+- Colleges
+- Educational institutions
+- Academic administrators
+- Faculty advisors
+- Student welfare departments
+- Institutional planning teams
+
+## Potential Benefits
+
+- Earlier identification of students requiring support
+- Better allocation of welfare resources
+- Data-driven intervention planning
+- Improved visibility into retention patterns
+- Measurement of intervention effectiveness
+- Faster access to institutional analytics
+
+The architecture can be extended to larger datasets and additional institutions.
+
+---
+
+# 🔮 Future Scope
+
+Future improvements could include:
+
+- Real-time student-risk monitoring
+- Automated intervention recommendations
+- Explainable AI for predictions
+- Personalized student-support recommendations
+- Early-warning notifications
+- Learning Management System integration
+- Student engagement analytics
+- Scholarship and financial-aid analysis
+- Placement and internship analytics
+- Longitudinal student journey analysis
+- Advanced AI-powered institutional analytics
+
+---
+
+# 🎯 Project Goal
+
+The goal of the Student Retention & Welfare Efficacy Tracker is to transform messy educational data into actionable intelligence.
+
+The platform aims to help institutions:
+
+```text
+Collect
+  ↓
+Clean
+  ↓
+Understand
+  ↓
+Identify Risk
+  ↓
+Evaluate Interventions
+  ↓
+Take Action
+```
+
+The larger vision is:
+
+> ### Reactive Support → Proactive Intelligence
+
+---
+
+# 🏆 Hackathon
+
+### Track
+
+**Education & EdTech**
+
+### Problem Statement
+
+**Student Retention & Welfare Efficacy Tracker**
+
+### Event
+
+**TransOrg AgentIQ Datathon — From Messy Data to Agentic Insights**
+
+---
+
+# 👥 Team
+
+| Role | Responsibility |
+|---|---|
+| 👨‍💻 Data Engineer | Data cleaning, validation & pipeline |
+| 📊 Data Analyst | SQL, metrics & business insights |
+| 🎨 Dashboard Developer | Streamlit, Plotly & UI/UX |
+| 🤖 AI/ML Developer | Risk model & AI Analyst |
+
+---
+
+# 📌 Important Notes
+
+The project is designed around the organizer-provided dataset.
+
+The final:
+
+- Data fields
+- Model performance
+- Risk metrics
+- Retention metrics
+- Intervention metrics
+- Dashboard results
+
+should be based on the actual dataset and implementation.
+
+No fabricated analytical results or model-performance claims should be presented.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the [`LICENSE`](LICENSE) file for details.
+
+---
+
+# ⭐ Project Vision
+
+### From Messy Student Data to Proactive Student Support
+
+**Clean the data.  
+Understand the risk.  
+Measure the impact.  
+Support students earlier.**
+
+---
