@@ -83,29 +83,6 @@ The pipeline is designed to identify and resolve common problems found in messy 
 - Relationship validation
 - Data-quality reporting
 
-### Example
-
-Raw student data may contain:
-
-Student_ID    Department       Attendance    CGPA
----------------------------------------------------
-101           CSE              85%            8.2
-101           cse              85             8.20
-102           Computer Sci     0.78           7.5
-
-The data-rescue pipeline converts inconsistent representations into a standardized analytical format:
-
-Student_ID    Department    Attendance    CGPA
-------------------------------------------------
-101           CSE           0.85          8.20
-102           CSE           0.78          7.50
-
-The pipeline maintains a clear separation between:
-
-Raw Data → Cleaned Data → Analytics Data
-
-This improves reproducibility, transparency, and data quality.
-
 📊 Analytics Layer
 
 The analytics layer converts cleaned student information into meaningful institutional metrics.
