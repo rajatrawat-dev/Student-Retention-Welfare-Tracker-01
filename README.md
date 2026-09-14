@@ -32,7 +32,7 @@ The platform combines data engineering, analytics, machine learning, visualizati
 
 ### Core Pipeline
 
-
+```text
 Raw Student Data
        ↓
 Data Cleaning & Validation
@@ -544,5 +544,4 @@ Run:
 git add README.md
 git commit -m "Improve README and add live demo"
 git push origin main
-
 
