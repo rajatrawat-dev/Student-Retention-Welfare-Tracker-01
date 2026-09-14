@@ -1,156 +1,302 @@
-﻿# StudentIQ — Student Retention & Welfare Intelligence
+# StudentIQ — Student Retention & Welfare Intelligence
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DuckDB](https://img.shields.io/badge/DuckDB-OLAP-orange.svg)](https://duckdb.org/)
+> An end-to-end data analytics and AI platform that transforms messy student records into actionable retention and welfare insights.
+
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red.svg)](https://streamlit.io/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688.svg)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B.svg)](https://streamlit.io/)
-[![Tests](https://img.shields.io/badge/pytest-23%20passed-brightgreen.svg)](https://docs.pytest.org/)
-
-> **TransOrg GraphIQ Datathon**  
-> **Track:** Education & EdTech — Student Retention & Welfare Efficacy Tracker  
-> **Core Narrative:** *"From messy student data to actionable retention and welfare insights."*
+[![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-orange.svg)](https://duckdb.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E.svg)](https://scikit-learn.org/)
+[![Pytest](https://img.shields.io/badge/Tests-Pytest-0A9EDC.svg)](https://pytest.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
-## 1. Executive Overview
+## 🚀 Live Demo
 
-Educational institutions struggle with fragmented, noisy student records that obscure impending dropout risks. Early indicators such as declining attendance or subtle academic slippage frequently go unnoticed until formal failure occurs.
+### 🌐 Streamlit Dashboard
 
-**StudentIQ** is an end-to-end intelligence platform that transforms raw, messy institutional records into continuous ground truth, computes real-time analytical telemetry via DuckDB, evaluates retention risk via Scikit-Learn models, and empowers decision-makers with an AI Analyst copilot.
+👉 **[Open StudentIQ Live Dashboard](https://studentiq-retention-welfare-r6.streamlit.app/)**
 
----
+### 💻 GitHub Repository
 
-## 2. Why StudentIQ is Not CRUD
-
-Traditional administrative management systems are simple Create-Read-Update-Delete (CRUD) applications. StudentIQ is fundamentally distinct:
-
-| Dimension | Traditional CRUD System | StudentIQ Intelligence Platform |
-|---|---|---|
-| **Data Ingestion** | Assumes clean, structured, formatted input | **14-Step Data Rescue Engine** handles noisy IDs, slang, missing data, and anomalies |
-| **Integrity Assurance** | Silent failure or database crashes on dirty data | **Data Quality Scoring (0-100)** with full audit provenance |
-| **Analytics Engine** | Static SQL row queries in transactional databases | **Embedded DuckDB Columnar OLAP** computing real-time cross-cohort metrics |
-| **Risk Assessment** | Static arbitrary rule or zero prediction | **Scikit-Learn ML Classifier** combined with continuous retention risk index |
-| **User Interaction** | Form-based navigation and manual tables | **Controlled Natural Language AI Analyst** with AST-level safety and automatic chart selection |
+👉 **[View Source Code](https://github.com/rajatrawat-dev/StudentIQ-Retention-Welfare)**
 
 ---
 
-## 3. System Architecture
+## 📌 Overview
 
-```mermaid
-flowchart TD
-    subgraph Layer1[Layer 1: Data Rescue Engine]
-        A[Raw Messy CSV] --> B[Normalizers: ID, Name, Dept, Gender, Att, CGPA, Dates]
-        B --> C[Deduplication & Collision Resolution]
-        C --> D[Department-Median Missing Imputation]
-        D --> E[Academic Anomaly Detection]
-        E --> F[Canonical Validated Dataset]
-        E --> G[Data Quality Report JSON]
-    end
+**StudentIQ** is an end-to-end student retention and welfare analytics platform built to transform messy and fragmented student records into reliable analytical insights.
 
-    subgraph Layer2[Layer 2: DuckDB Analytics & ML]
-        F --> H[(Embedded DuckDB Engine)]
-        H --> I[Analytical Views: department_summary, risk_summary]
-        F --> J[Scikit-Learn Random Forest Pipeline]
-        J --> K[Persisted Joblib Model & Calibration Fallback]
-    end
+The platform combines data engineering, analytics, machine learning, visualization, REST APIs, and natural-language querying into a single decision-support system.
 
-    subgraph Layer3[Layer 3: Controlled AI Analyst]
-        L[Natural Language Question] --> M[Intent Detection Engine]
-        M --> N[Query Generator: Ollama LLM / Rule Engine]
-        N --> O{AI Safety Validator}
-        O -- "Unsafe Keywords" --> P[Security Alert & Rejection]
-        O -- "Approved SELECT" --> Q[DuckDB Safe Execution]
-        Q --> R[Chart Recommendation Engine]
-        Q --> S[Natural Language Explanation]
-    end
+### Core Pipeline
 
-    subgraph Layer4[Layer 4: Presentation & API]
-        T[Streamlit Futuristic UI]
-        U[FastAPI REST Microservice]
-        H --> T
-        H --> U
-        K --> T
-        K --> U
-        R --> T
-        S --> T
-    end
-```
 
----
+Raw Student Data
+       ↓
+Data Cleaning & Validation
+       ↓
+Data Quality Assessment
+       ↓
+DuckDB Analytical Layer
+       ↓
+Analytics & KPIs
+       ↓
+Retention Risk Analysis
+       ↓
+Machine Learning
+       ↓
+AI Analyst
+       ↓
+Interactive Streamlit Dashboard
+🎯 Problem Statement
 
-## 4. Key Pillars
+Educational institutions often maintain student information across fragmented datasets.
 
-### Layer 1: Data Rescue Engine
-The 14-step automated pipeline sanitizes heterogeneous records:
-1. **Tolerant Ingestion**: UTF-8 and Latin-1 fallback parsing.
-2. **Column Normalization**: Resolves aliases (`reg_no`, `branch`, `attendance_rate`).
-3. **Exact Deduplication**: Drops duplicate row snapshots.
-4. **Identifier Normalization**: Standardizes student keys to `STU-XXXX`.
-5. **Name Casing**: Cleans symbols and standardizes to Title Case.
-6. **Department Alias Resolution**: Standardizes variations (`cse`, `comp sci`, `mech`, `ece`) into 6 accredited disciplines.
-7. **Gender Normalization**: Unifies categories to `Male`, `Female`, or `Other`.
-8. **Attendance Normalization**: Converts percentages (`85%`), decimals (`0.85`), and scales 10x typos (`850 -> 85.0`).
-9. **CGPA Bounds Enforcement**: Repairs commas (`7,85`), rejects impossible values (<0 or >10).
-10. **ISO Date Normalization**: Standardizes dates to `YYYY-MM-DD`.
-11. **Department-Median Imputation**: Intelligently fills missing numerical indicators using department medians.
-12. **Academic Anomaly Detection**: Flags cognitive dissonance (e.g. 9.8 CGPA with 15% attendance).
-13. **Derived Feature Generation**: Computes continuous academic risk score and support priority.
-14. **Data Quality Scoring**: Computes composite data quality score out of 100.
+Common problems include:
 
-### Layer 2: DuckDB Analytical Engine
-- Zero-dependency, embedded columnar OLAP database.
-- Blazing-fast aggregations across student cohorts without expensive external infrastructure.
-- In-memory analytical views: `department_summary` and `risk_summary`.
+Missing values
+Duplicate records
+Inconsistent student IDs
+Different department naming conventions
+Multiple attendance formats
+Invalid academic values
+Inconsistent dates
+Data-quality issues
 
-### Layer 3: Machine Learning & Retention Risk
-- **Supervised Model**: Scikit-Learn Random Forest Classifier trained on academic features.
-- **Dataset Size Check**: If sample size is statistically insufficient, displays: *"Dataset too small for statistically reliable model evaluation"* and automatically calibrates to the rule-based engine.
-- **Continuous Retention Risk Formula**:
-  $$\text{Risk Score} = (10 - \text{CGPA}) \times 6 + (100 - \text{Attendance}) \times 0.4$$
-- **Tiers**: `LOW`, `MEDIUM`, `HIGH`, `CRITICAL`.
-- **Support Queue**: Prioritizes students requiring immediate advisory intervention.
-- *Notice: Strictly framed as an academic retention indicator, not a medical or psychological diagnosis.*
+These problems make it difficult to obtain reliable insights and identify students who may require additional academic support.
 
-### Layer 4: AI Analyst & Safety Protocol
-- **Natural Language Copilot**: Translates questions into optimized SQL queries.
-- **AI Safety Validator**: Enforces strict read-only analytical SELECT queries; immediately rejects `DROP`, `DELETE`, `UPDATE`, `INSERT`, `ALTER`, `TRUNCATE`, `PRAGMA`, and multi-statement injection attempts.
-- **Dual Mode**: Seamlessly queries local Ollama if available; falls back automatically to the rule-based generator with zero degradation.
-- **Automatic Chart Selection**: Categorical comparisons -> Bar; Relationships -> Scatter; Proportions -> Donut; Rankings -> Horizontal Bar.
+StudentIQ addresses this by creating a reproducible data-rescue, analytics, and decision-support pipeline.
 
-### Layer 5: Premium Dark Futuristic Dashboard
-- Obsidian dark theme with neon cyan (`#00E5FF`), electric violet (`#7C4DFF`), and emerald accents.
-- Reusable glassmorphic cards and interactive Plotly charts.
-- 5 comprehensive pages: Executive Dashboard, Data Quality Audit, Student Directory, Retention Risk Analysis, and Ask StudentIQ Copilot.
+✨ Key Features
+1. Data Rescue Engine
 
----
+StudentIQ includes an automated data-cleaning pipeline capable of handling:
 
-## 5. Project Directory Structure
+Tolerant data ingestion
+Column-name normalization
+Duplicate detection
+Student ID normalization
+Name normalization
+Department standardization
+Gender normalization
+Attendance normalization
+CGPA validation
+Date normalization
+Missing-value imputation
+Academic anomaly detection
+Derived risk features
+Data-quality scoring
+2. Data Quality Monitoring
 
-```
-Student-Retention-Welfare-Tracker-01/
+Instead of silently modifying problematic records, StudentIQ provides visibility into data quality.
+
+The system tracks:
+
+Missing values
+Duplicate records
+Invalid values
+Normalization operations
+Detected anomalies
+Overall data-quality score
+3. DuckDB Analytical Engine
+
+StudentIQ uses DuckDB as an embedded analytical database.
+
+The analytical layer supports:
+
+Institutional KPIs
+Department-level analysis
+Student-level exploration
+Risk distribution
+Cohort comparisons
+Analytical SQL queries
+
+DuckDB provides a lightweight analytical layer without requiring a separate database server.
+
+4. Retention Risk Analysis
+
+The platform combines academic indicators to calculate a continuous retention-risk indicator.
+
+Risk categories:
+
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+The system can prioritize students who may require additional academic support.
+
+Risk scores are analytical indicators and should not be treated as medical, psychological, or clinical diagnoses.
+
+🤖 AI Analyst
+
+StudentIQ includes a natural-language analytical interface that allows users to ask questions about the dataset.
+
+Example
+Which departments have the lowest average CGPA?
+
+The system can:
+
+Natural Language Question
+          ↓
+Intent Detection
+          ↓
+Safe SQL Generation
+          ↓
+DuckDB Query
+          ↓
+Result Analysis
+          ↓
+Chart Selection
+          ↓
+Insight
+🔐 SQL Safety
+
+The AI Analyst uses a read-only analytical approach.
+
+Potentially destructive SQL operations are blocked, including:
+
+DROP
+DELETE
+UPDATE
+INSERT
+ALTER
+TRUNCATE
+PRAGMA
+
+Multi-statement SQL injection attempts are also rejected.
+
+The goal is to ensure that the analytical assistant cannot modify the underlying analytical database through user queries.
+
+📊 Automatic Visualization
+
+The AI Analyst selects visualizations based on the type of analytical question.
+
+Analytical Intent	Chart
+Category comparison	Bar Chart
+Relationship between variables	Scatter Plot
+Proportion / distribution	Donut Chart
+Ranking	Horizontal Bar Chart
+Trend analysis	Line Chart
+
+This allows users to receive both the analytical result and an appropriate visual representation.
+
+🧠 Machine Learning
+
+StudentIQ includes a Scikit-Learn machine-learning pipeline.
+
+Model
+Random Forest Classifier
+
+The ML pipeline includes:
+
+Feature preparation
+Model training
+Prediction
+Dataset-size validation
+Model evaluation
+Rule-based fallback
+
+If the dataset is too small for reliable statistical evaluation, the application can fall back to deterministic analytical rules.
+
+🖥️ Dashboard
+
+The Streamlit application provides five main areas:
+
+1. Executive Dashboard
+
+Provides high-level institutional KPIs and important insights.
+
+2. Data Quality
+
+Displays data-quality metrics, anomalies, and cleaning results.
+
+3. Student Analytics
+
+Allows exploration of student and department-level information.
+
+4. Retention Risk
+
+Provides risk distribution and support-priority analysis.
+
+5. AI Analyst
+
+Allows users to ask analytical questions in natural language.
+
+🏗️ System Architecture
+                         ┌───────────────────┐
+                         │   Raw Data Files  │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                         ┌───────────────────┐
+                         │ Data Rescue Layer │
+                         │                   │
+                         │ Cleaning          │
+                         │ Normalization     │
+                         │ Validation        │
+                         │ Deduplication     │
+                         │ Imputation        │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                         ┌───────────────────┐
+                         │ Cleaned Dataset   │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                         ┌───────────────────┐
+                         │      DuckDB       │
+                         │ Analytical Layer  │
+                         └─────────┬─────────┘
+                                   │
+                  ┌────────────────┼────────────────┐
+                  │                │                │
+                  ▼                ▼                ▼
+          ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+          │  Analytics   │ │ ML Risk      │ │ AI Analyst   │
+          │  & KPIs      │ │ Prediction   │ │              │
+          └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
+                 │                │                │
+                 └────────────────┼────────────────┘
+                                  ▼
+                       ┌─────────────────────┐
+                       │ Streamlit Dashboard │
+                       └─────────────────────┘
+                                  │
+                                  ▼
+                       ┌─────────────────────┐
+                       │ Decision Support   │
+                       └─────────────────────┘
+📂 Project Structure
+StudentIQ-Retention-Welfare/
+│
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
+│
 ├── app/
 │   ├── __init__.py
 │   ├── streamlit_app.py
+│   │
 │   ├── components/
-│   │   ├── __init__.py
 │   │   ├── sidebar.py
 │   │   ├── kpi_cards.py
 │   │   ├── charts.py
 │   │   ├── tables.py
 │   │   └── agent_chat.py
+│   │
 │   └── pages/
-│       ├── __init__.py
 │       ├── 01_Executive_Dashboard.py
 │       ├── 02_Data_Quality.py
 │       ├── 03_Student_Analytics.py
 │       ├── 04_Risk_Analysis.py
 │       └── 05_AI_Analyst.py
+│
 ├── api/
 │   ├── __init__.py
 │   ├── main.py
@@ -159,180 +305,244 @@ Student-Retention-Welfare-Tracker-01/
 │       ├── students.py
 │       ├── analytics.py
 │       └── agent.py
+│
 ├── data/
 │   ├── raw/
-│   │   └── messy_students.csv
 │   ├── processed/
-│   │   ├── cleaned_students.csv
-│   │   └── analytics.duckdb
 │   └── sample/
-│       └── README.md
+│
 ├── docs/
 │   ├── architecture.md
 │   ├── data_dictionary.md
 │   ├── methodology.md
 │   └── demo_questions.md
+│
 ├── notebooks/
 │   └── exploration.ipynb
+│
 ├── scripts/
 │   ├── generate_messy_data.py
 │   ├── clean_data.py
 │   ├── build_database.py
 │   └── train_model.py
+│
 ├── src/
-│   ├── __init__.py
 │   ├── config/
-│   │   ├── __init__.py
-│   │   └── settings.py
 │   ├── data/
-│   │   ├── __init__.py
-│   │   ├── loader.py
-│   │   ├── cleaner.py
-│   │   ├── validator.py
-│   │   ├── normalizer.py
-│   │   └── quality_report.py
 │   ├── analytics/
-│   │   ├── __init__.py
-│   │   ├── database.py
-│   │   ├── queries.py
-│   │   ├── metrics.py
-│   │   └── insights.py
 │   ├── ml/
-│   │   ├── __init__.py
-│   │   ├── train.py
-│   │   ├── predict.py
-│   │   ├── model.py
-│   │   └── features.py
 │   ├── agent/
-│   │   ├── __init__.py
-│   │   ├── agent.py
-│   │   ├── intent.py
-│   │   ├── query_generator.py
-│   │   ├── query_validator.py
-│   │   ├── chart_selector.py
-│   │   └── prompts.py
 │   └── utils/
-│       ├── __init__.py
-│       ├── logging.py
-│       └── helpers.py
+│
 └── tests/
-    ├── __init__.py
     ├── test_cleaner.py
     ├── test_validator.py
     ├── test_metrics.py
     ├── test_queries.py
     └── test_agent.py
-```
+⚙️ Installation
+Prerequisites
+Python 3.11+
+Git
+pip
+Optional: Ollama for local LLM functionality
+1. Clone the Repository
+git clone https://github.com/rajatrawat-dev/StudentIQ-Retention-Welfare.git
+cd StudentIQ-Retention-Welfare
+2. Create a Virtual Environment
+Windows PowerShell
+python -m venv .venv
 
----
+Activate it:
 
-## 6. Installation & Quickstart
+.\.venv\Scripts\Activate.ps1
 
-### Prerequisites
-- Python 3.11+
-- Virtual environment (recommended)
+If PowerShell blocks activation:
 
-### Step 1: Clone or Extract Repository
-```bash
-cd Student-Retention-Welfare-Tracker-01
-```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-### Step 2: Install Dependencies
-```bash
+Then:
+
+.\.venv\Scripts\Activate.ps1
+3. Install Dependencies
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-```
+🔄 Run the Data Pipeline
 
-### Step 3: Execute End-to-End Pipeline
-Run the reproducible pipeline scripts in sequence:
+Execute the pipeline in order.
 
-```bash
-# 1. Generate realistic messy dataset
+Step 1 — Generate / Prepare Data
 python scripts/generate_messy_data.py
-
-# 2. Execute 14-step Data Rescue cleaning pipeline
+Step 2 — Clean Data
 python scripts/clean_data.py
-
-# 3. Ingest cleaned data into DuckDB analytical store
+Step 3 — Build DuckDB Database
 python scripts/build_database.py
-
-# 4. Train and calibrate student retention risk ML model
+Step 4 — Train Risk Model
 python scripts/train_model.py
-```
+🧪 Run Tests
 
-### Step 4: Run Test Suite
-Verify that all unit and integration tests pass:
-```bash
+Run all tests:
+
 pytest -v
-```
 
----
+Or:
 
-## 7. Running the Applications
+python -m pytest -q
+🚀 Run Streamlit Locally
 
-### Launch Streamlit Dashboard
-```bash
+Start the dashboard from the project root:
+
 streamlit run app/streamlit_app.py
-```
-Open your browser at `http://localhost:8501`.
 
-### Launch FastAPI Backend
-```bash
+Then open:
+
+http://localhost:8501
+🔌 Run FastAPI
+
+Start the backend:
+
 uvicorn api.main:app --reload
-```
-Access interactive Swagger API documentation at `http://localhost:8000/docs`.
 
----
+API:
 
-## 8. REST API Documentation
+http://localhost:8000
 
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/` | Health check and DuckDB status |
-| `GET` | `/analytics/summary` | Top-level institutional KPIs and dynamic insights |
-| `GET` | `/analytics/departments` | Aggregated metrics per academic department |
-| `GET` | `/analytics/risk` | Retention risk breakdown distribution |
-| `GET` | `/students` | Filterable and searchable student records |
-| `GET` | `/students/{student_id}` | Detailed student profile with individual risk explanation |
-| `POST` | `/agent/query` | Natural language query translation into safe SQL |
+Swagger documentation:
 
----
+http://localhost:8000/docs
+🤖 Optional Ollama Setup
 
-## 9. Curated Demo Questions for Jury
+Ollama can be used for local LLM inference.
 
-Test these queries in the **Ask StudentIQ** copilot interface:
-1. `Show students with attendance below 60%.`
-2. `Which departments have the lowest average CGPA?`
-3. `Compare CSE, ECE and IT.`
-4. `Show the relationship between attendance and CGPA.`
-5. `Which students are at high risk?`
-6. `Show the distribution of student risk.`
-7. `Which department needs the most academic support?`
-8. `Show top 10 students by CGPA.`
+After installing Ollama:
 
----
+ollama --version
 
-## 10. Technology Stack
+Download a lightweight model:
 
-- **Data Processing:** Pandas, NumPy
-- **Analytical Store:** DuckDB OLAP
-- **Machine Learning:** Scikit-Learn, Joblib
-- **Visualization:** Plotly Express & Graph Objects
-- **Frontend Dashboard:** Streamlit
-- **Backend API:** FastAPI, Uvicorn, Pydantic
-- **Testing:** Pytest
-- **Optional Local LLM:** Ollama (Mistral / Llama 3)
+ollama pull llama3.2:3b
 
----
+Run the model:
 
-## 11. Future Scope
+ollama run llama3.2:3b
 
-- Integration with Learning Management Systems (Canvas, Moodle) via LTI standards.
-- Longitudinal cohort progression tracking across 8 semesters.
-- Automated welfare email / SMS advisory dispatch for high-risk students.
-- Explainable AI (SHAP) feature attribution dashboards.
+The application can fall back to its deterministic rule-based analytical engine if Ollama is unavailable.
 
----
+☁️ Deployment — Streamlit Community Cloud
 
-## 12. License
+The application is deployed using Streamlit Community Cloud.
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+Repository
+rajatrawat-dev/StudentIQ-Retention-Welfare
+Branch
+main
+Main Streamlit File
+app/streamlit_app.py
+Live Application
+https://studentiq-retention-welfare-r6.streamlit.app/
+🔁 Update the Hosted Application
+
+Whenever changes are made locally:
+
+cd "C:\Users\VICTUS\StudentIQ-Retention-Welfare"
+
+Check changes:
+
+git status
+
+Add changes:
+
+git add .
+
+Commit:
+
+git commit -m "Update StudentIQ dashboard"
+
+Push to GitHub:
+
+git push origin main
+
+Streamlit Community Cloud will automatically rebuild the application after the GitHub update.
+
+💬 Example Analytical Questions
+
+The AI Analyst can be tested with questions such as:
+
+Show students with attendance below 60%.
+Which departments have the lowest average CGPA?
+Compare CSE, ECE and IT.
+Show the relationship between attendance and CGPA.
+Which students are at high risk?
+Show the distribution of student risk.
+Which department needs the most academic support?
+Show the top 10 students by CGPA.
+🛠️ Technology Stack
+Layer	Technology
+Programming	Python 3.11+
+Data Processing	Pandas, NumPy
+Analytical Database	DuckDB
+Machine Learning	Scikit-Learn
+Visualization	Plotly
+Dashboard	Streamlit
+Backend API	FastAPI
+API Server	Uvicorn
+Data Validation	Pydantic
+Testing	Pytest
+Local LLM	Ollama
+Version Control	Git + GitHub
+🔒 Responsible Use
+
+StudentIQ is designed as a decision-support and analytics platform.
+
+Retention-risk scores are indicators that can help identify records requiring further review.
+
+They should not be treated as definitive judgments about a student's future performance or circumstances.
+
+Human review should remain part of any real-world academic intervention.
+
+🔮 Future Improvements
+
+Potential improvements include:
+
+Longitudinal student tracking
+Explainable AI using SHAP
+Advanced cohort analysis
+Learning Management System integration
+Automated notifications
+Additional institutional data sources
+Role-based access control
+More advanced agentic analytics
+Improved model explainability
+👨‍💻 Author
+Rajat Rawat
+
+GitHub:
+https://github.com/rajatrawat-dev
+
+Project Repository:
+https://github.com/rajatrawat-dev/StudentIQ-Retention-Welfare
+
+Live Dashboard:
+https://studentiq-retention-welfare-r6.streamlit.app/
+
+📄 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+
+### Then push the README
+
+After replacing the README, open PowerShell:
+
+```powershell
+cd "C:\Users\VICTUS\StudentIQ-Retention-Welfare"
+
+Run:
+
+git add README.md
+git commit -m "Improve README and add live demo"
+git push origin main
+
+
