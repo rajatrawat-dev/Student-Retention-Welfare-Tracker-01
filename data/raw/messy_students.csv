@@ -1,0 +1,676 @@
+Student ID,Student Name,Department,Gender,CGPA,Attendance Rate,Admission Date
+1060,vivaan verma,cse,F,5.06,50.6,2024/06/08
+  STU-1096  ,AYAAN MISHRA,  Mechanical Engineering  ,boy,8.58,0.93,09/08/2023
+STU-1384,  Krishna   Reddy  ,electrical,girl,NA,,07-27-2024
+STU-1376,aditya das,computer science,female,6.8,65.7,2024-09-03
+stu-1008,Diya Choudhury,Mechanical Engineering,girl,,82.5,25/08/2024
+1253,  Pranav   Deshmukh  ,Information Technology,Male,12.5,93.4,14/06/2024
+STU-1020,Krishna Singh,comp sci,male,7.37,78%,2023-08-27
+1215,  Kabir   Verma  ,electronics and comm,Male,8.58,90.6,25/11/2023
+stu_1539,  Aditya   Kumar  ,eee,male,7.62,97.7,2023-12-26
+STU-1587,kabir verma,Civil Engineering,Male,5.35,54.6,18/04/2024
+1281,ADVAITH DESHMUKH,civil,non-binary,, 71 % ,2024-01-22
+  STU-1195  ,Riya Mehta,mechanical,male,9.31,48.8,11/06/2024
+STU-1261,saanvi patel,comp sci,non-binary,5.62,45.9,11-08-2023
+1043,rohan pillai,Civil Engineering,Other,8.0,51%,01/05/2024
+1409,  Aarohi   Nair  ,ee,male,"8,83", 71 % ,05-26-2024
+1059,  Myra   Choudhury  ,  Information Technology  ,M,7.88, 49 % ,2024-07-26
+  STU-1165  ,SAANVI GUPTA,mech,non-binary,,-5,2023/11/08
+  STU-1133  ,  Angel   Das  ,mechanical,Other,"8,99",0.99,05/10/2023
+  STU-1002  ,advaith joshi,Computer Science & Engineering,male,5.68,59.9,09-19-2023
+  STU-1213  ,  Pari   Singh  ,Computer Science & Engineering,non-binary,8.5,0.73,2023-09-21
+1462,Reyansh Menon,Computer Science & Engineering,Male,"6,77",91.3,2024/06/04
+stu_1418,Atharva Bose,  CS  ,Female,5.73,83.0,2024-05-18
+  STU-1334  ,riya mishra,civil,Female,3.85,0.89,2024-08-04
+  STU-1137  ,pooja verma,information technology,Other,6.16,110,11-24-2023
+  STU-1485  ,  Anika   Das  ,eee,male,6.73,66.5,2024-01-14
+stu_1259,Aadhya Bose,Information Technology,male,-1.5,63.3,09-13-2023
+stu_1546,advik menon,electrical,F,6.63,78.4,11/08/2024
+1378,Advik Nair,mechanical,Female,9.24,-5,12/03/2024
+stu_1019,ananya gupta,CS,F,6.3, 97 % ,07-07-2024
+1396,vihaan bhat,  cse  ,F,3.76,81.6,31/08/2024
+STU-1311,  Aarav   Iyer  ,CS,Male,8.26,86.9,
+1069,  Pranav   Joshi  ,electronics,M,5.85,43.6,2023/10/02
+STU-1307,pooja joshi,Information Technology,boy,6.98,91.2,10/05/2024
+  STU-1550  ,shaurya nair,Electronics & Communication Engineering,boy,6.72,52.5,18/08/2024
+stu_1337,SHAURYA GUPTA,electrical,female,9.8,15%,08-02-2023
+1260,PRANAV MENON,Electronics & Communication Engineering,non-binary,4.74,90.3,2024/05/08
+stu_1551,  Ananya   Menon  ,information technology,M,4.56,850,16/08/2023
+1147,Reyansh Bhat,electronics,non-binary, 3.8 ,93.1,17/08/2023
+1088,Arjun Choudhury,Information Technology,Female,8.95,48.9,05/07/2024
+1230,aditya das,electrical,Male,3.81,42.8,2024/03/15
+stu_1305,  Aarav   Verma  ,ee,F,5.09,60.0,2024-08-23
+STU-1603,  Advik   Gupta  ,electrical,girl,5.47,73%,2023-08-11
+stu_1445,VIVAAN SHARMA,CS,boy, 8.95 ,75.4,05/02/2024
+STU-1325,SAANVI DAS,mechanical,M,6.6,0.52,2024-05-14
+1359,Meera Bose,  it  ,Other,4.32,110,08-01-2023
+STU-1203,atharva deshmukh,info tech,non-binary,12.5,0.84,11/01/2024
+1116,ANGEL GUPTA,info tech,Other,,,2024/03/30
+  STU-1493  ,Sara Verma,civil,non-binary, 9.72 ,68.4,2024/07/14
+1347,pari verma,  Civil Engineering  ,boy,8.81,50.3,20/08/2023
+STU-1204,Anika Joshi,electronics and comm,M,8.54,,02/03/2024
+  STU-1150  ,pooja kumar,Information Technology,female,"7,4",110,2023-12-05
+STU-1487,Sai Iyer,it,girl,3.62,96.8,14/11/2023
+STU-1617,aadhya sharma,electrical,female,5.51,-5,09-19-2023
+  STU-1035  ,SHAURYA JOSHI,info tech,female, 7.74 ,91.1,2023/12/12
+stu_1246,advik iyer,Electrical Engineering,male,7.66,81.0,09-29-2023
+STU-1497,navya das,mechanical,Male,12.5,66.2,08-11-2023
+STU-1324,Ananya Nair,Mechanical Engineering,non-binary,6.48,0.79,07-03-2024
+  STU-1504  ,PARI PATEL,cse,girl,,65.5,2023-08-29
+stu_1459,Pooja Bhat,Mechanical Engineering,M,6.56,0.93,2024/04/24
+stu_1005,  Shaurya   Joshi  ,electronics and comm,Other,5.58,0.88,02-22-2024
+1290,Ananya Pillai,  mechanical  ,male,NA,68.1,03-18-2024
+stu_1576,Myra Reddy,Electronics & Communication Engineering,Female, 8.66 ,75%,2023-09-20
+  STU-1168  ,reyansh kumar,cse,F,4.06,0.88,08-12-2024
+  STU-1303  ,KABIR VERMA,civil,M,9.79,58.4,2024-06-18
+stu_1162,  Sara   Rao  ,  mechanical  ,boy,8.31,0.46,11-04-2023
+stu_1335,riya menon,  civil  ,girl,8.06,54.8,30/07/2024
+STU-1012,Advaith Patel,  mech  ,boy,6.61,92.1,2023/12/03
+stu_1569,  Myra   Mehta  ,Mechanical Engineering,M,8.07,63.9,2024/02/18
+stu_1556,Pooja Das,ME,girl,8.99,57.3,2023-10-13
+stu_1430,vivaan pillai,cse,female,9.27,74.7,2024/02/10
+1520,aarav mishra,ME,female,8.76,,24/08/2024
+STU-1004,  Advaith   Reddy  ,electronics and comm,F,"6,06",81.4,06/09/2023
+  STU-1276  ,rohan nair,Information Technology,Female,7.2,-5,2024-07-03
+1621,Navya Patel,Electronics & Communication Engineering,girl,6.53,78.4,2023/10/03
+  STU-1093  ,SHAURYA IYER,  electronics and comm  ,girl,7.05,90.2,25/08/2024
+  STU-1620  ,REYANSH SHARMA,electrical,Other,8.6,66.8,30/12/2023
+  STU-1639  ,Vivaan Menon,CE,M,6.19,66.6,2023-12-31
+  STU-1585  ,AARAV BOSE,comp sci,Male,"6,44", 46 % ,07-06-2024
+1614,ADVAITH MENON,electronics and comm,Other,9.59,43.3,2024-08-16
+1429,  Myra   Reddy  ,ME,female,7.73,75.0,09-03-2023
+  STU-1319  ,Sara Deshmukh,electronics,female,"5,95",84.0,2023-12-13
+1082,Arjun Das,  Civil Engineering  ,M,7.18,64.6,08-11-2023
+stu_1138,  Isha   Verma  ,Civil Engineering,male,5.13,0.67,01/05/2024
+  STU-1014  ,KRISHNA MENON,electronics and comm,M,9.01,0.99,17/09/2023
+stu_1005,  Shaurya   Joshi  ,electronics and comm,Other,5.58,0.88,02-22-2024
+STU-1436,advik nair,  computer science  ,Female,4.63,68.7,invalid-date
+STU-1206,  Anika   Nair  ,Electronics & Communication Engineering,Other,9.76,92.7,08/03/2024
+STU-1264,Arjun Sharma,it,non-binary,3.73,71.8,10-16-2023
+  STU-1317  ,Atharva Mehta,info tech,Male, 7.19 ,0.85,2024/03/10
+  STU-1081  ,VIHAAN SHARMA,Mechanical Engineering,male,5.35,65.4,29/04/2024
+  STU-1200  ,  Aadhya   Nair  ,  cse  ,boy,3.63, 77 % ,10-30-2023
+  STU-1542  ,AADHYA NAIR,electronics,non-binary,5.33,56.0,09-10-2023
+stu_1400,  Rohan   Bose  ,civil,Male,3.9, 95 % ,01-23-2024
+stu_1514,  Advik   Iyer  ,ee,non-binary,7.57,74.7,29/12/2023
+  STU-1399  ,  Sai   Patel  ,Electronics & Communication Engineering,M,12.5,0.49,2023-11-13
+  STU-1484  ,vihaan mishra,ece,girl,,44.0,
+stu_1033,MYRA GUPTA,CS,F,6.16,93.4,2024-07-22
+1003,Aditya Joshi,  mechanical  ,Female,7.46,81.6,
+1437,arjun menon,Electrical Engineering,M,8.87, 75 % ,07-06-2024
+STU-1567,  Kabir   Das  ,Mechanical Engineering,male,5.9,78.9,2024/06/28
+stu_1154,ISHA REDDY,  Mechanical Engineering  ,female,7.47, 62 % ,31/05/2024
+  STU-1422  ,Angel Nair,Electrical Engineering,M,6.85,0.63,22/09/2023
+1597,Krishna Singh,information technology,boy,3.51,61.8,07-27-2024
+stu_1369,  Myra   Das  ,  electronics and comm  ,female,,66.5,2024-04-28
+stu_1023,  Shaurya   Nair  ,Computer Science & Engineering,F,6.13,54.6,2024-07-25
+  STU-1143  ,Atharva Pillai,  civ  ,M,9.8,15%,28/07/2024
+  STU-1408  ,Aarohi Gupta,computer science,girl,6.86,74.9,2023/08/04
+STU-1102,pari mishra,civil,female,"6,57",82.9,2024/06/10
+1197,  Rohan   Pillai  ,ME,Other, 5.23 ,41.7,2023-12-22
+1345,Rohan Mehta,  information technology  ,male,9.21,86%,04-23-2024
+STU-1186,isha mishra,  mech  ,girl,,74%,03-25-2024
+stu-1009,AADHYA BHAT,computer science,male,8.48,,2023-08-10
+stu_1573,NAVYA SINGH,eee,M,5.17, 69 % ,21/07/2024
+  STU-1631  ,saanvi menon,ee,M,8.66,76.4,2024-04-11
+STU-1562,Pari Mishra,electronics and comm,non-binary,8.8,62.2,18/01/2024
+  STU-1144  ,  Angel   Verma  ,Electrical Engineering,Male, 6.13 ,71.6,2024/04/14
+stu_1241,isha choudhury,cse,girl,9.8,15%,19/09/2023
+  STU-1331  ,  Krishna   Bhat  ,ee,male,6.65, 46 % ,invalid-date
+stu_1494,SAANVI VERMA,eee,M,6.03,0.73,09/03/2024
+stu_1013,  Reyansh   Reddy  ,ME,girl,3.85,43.6,25/09/2023
+  STU-1385  ,KRISHNA IYER,information technology,girl,9.5,,2024-04-12
+STU-1581,SARA NAIR,  Electronics & Communication Engineering  ,male,9.6,850,21/01/2024
+stu_1316,  Reyansh   Verma  ,ME,Female,7.23,45.4,2023-11-20
+  STU-1609  ,Advaith Das,it,Other,7.94,53.9,invalid-date
+STU-1398,  Angel   Bose  ,CE,M,6.9,66.7,2024-07-10
+  STU-1568  ,Angel Sharma,  comp sci  ,girl,9.31,98.3,2024-07-21
+STU-1496,  Aarav   Nair  ,Information Technology,girl,6.94,44.6,invalid-date
+stu_1229,anika mehta,electrical,female,,97%,invalid-date
+stu_1390,NAVYA SINGH,  mech  ,non-binary,,0.9,10-27-2023
+  STU-1083  ,  Angel   Patel  ,comp sci,non-binary,4.0,53.1,2023-09-09
+stu_1383,Pari Iyer,it,M,-1.5,49.9,2023/10/24
+1370,meera deshmukh,mech,M,7.24,54.3,29/08/2024
+stu_1474,  Ishaan   Bhat  ,  electronics  ,female,6.12,86.9,2023/08/16
+  STU-1047  ,Aadhya Rao,info tech,M,9.8,15%,08/09/2023
+stu_1121,kabir singh,electronics,Female,8.01,68.3,08-04-2024
+STU-1537,PARI DAS,mech,F, 7.76 ,,2024/03/17
+stu_1228,advaith bose,  computer science  ,Other,4.57, 60 % ,2024/01/20
+  STU-1002  ,advaith joshi,Computer Science & Engineering,male,5.68,59.9,09-19-2023
+STU-1475,arjun patel,mech,male, 6.02 ,48.9,06-19-2024
+1189,Isha Patel,  civ  ,female,NA,65.7,11-30-2023
+STU-1294,krishna kumar,eee,M, 6.04 ,67.9,
+STU-1220,advaith singh,ee,Female,9.8,15%,2024-02-20
+STU-1309,  Myra   Iyer  ,electrical,non-binary,6.12,0.79,
+  STU-1594  ,Ayaan Menon,CE,Other,4.57,57.1,01/09/2023
+stu_1223,rohan bose,Electronics & Communication Engineering,Other,"4,57",0.55,25/08/2024
+STU-1164,Krishna Choudhury,electronics,male,4.4,73.9,06/04/2024
+1039,Ayaan Rao,ME,F,NA,40.7,2024-04-07
+STU-1449,  Aarav   Singh  ,Mechanical Engineering,F,"9,17",,2023/10/26
+1421,aditya patel,  CE  ,Female,8.21,53.3,07/03/2024
+STU-1479,Sara Mishra,civil,boy,9.83,77.0,31/05/2024
+1174,SAI BOSE,cse,Female,8.33,0.46,09/09/2023
+STU-1135,Kabir Iyer,comp sci,girl, 8.0 ,63.7,2023-11-20
+stu_1423,  Anika   Iyer  ,comp sci,female,5.28,56.1,2024/06/25
+1054,  Aarav   Pillai  ,CS,M,4.25,82.3,2023/12/18
+1386,Navya Menon,Information Technology,M,9.75,98.2,25/03/2024
+STU-1431,POOJA REDDY,mech,F,"5,74",51.9,08/09/2023
+  STU-1092  ,ADVAITH PILLAI,Mechanical Engineering,girl,4.74,66.0,2024/09/02
+STU-1041,DIYA JOSHI,electrical,non-binary,5.65,70%,12-22-2023
+  STU-1173  ,VIVAAN REDDY,civil,female,7.91,49.4,2023-12-19
+  STU-1188  ,AADHYA REDDY,civ,female,3.88,45.5,2024/04/23
+1483,  Ayaan   Deshmukh  ,  comp sci  ,non-binary,6.85,64%,invalid-date
+STU-1120,KRISHNA BHAT,Information Technology,girl,5.51,60.2,08-30-2024
+  STU-1036  ,  Pari   Choudhury  ,electronics and comm,female, 4.02 ,99.0,2024-06-28
+stu_1091,MYRA GUPTA,Electronics & Communication Engineering,non-binary,4.56,79.9,03-15-2024
+  STU-1583  ,Vihaan Bose,info tech,Female,3.53,63%,13/09/2023
+STU-1234,Reyansh Nair,Mechanical Engineering,F,4.24,40.6,27/06/2024
+1414,ISHAAN SHARMA,civ,girl,9.39, 71 % ,2024-05-13
+stu_1167,  Isha   Rao  ,Information Technology,non-binary,15.0,61.6,2023/08/22
+stu_1332,Advik Iyer,Electronics & Communication Engineering,girl,6.64,54.6,2023/08/22
+stu_1013,  Reyansh   Reddy  ,ME,girl,3.85,43.6,25/09/2023
+1078,vivaan nair,ee,F,4.66,44.1,2023-08-16
+STU-1629,ADITYA IYER,Civil Engineering,male,4.88, 81 % ,2024-02-03
+stu_1371,Pari Pillai,  Electrical Engineering  ,M,,0.46,11-21-2023
+  STU-1577  ,  Atharva   Bose  ,CE,Female,,49.2,02-10-2024
+  STU-1482  ,SHAURYA GUPTA,CE,male,6.78,66.9,invalid-date
+STU-1244,  Meera   Rao  ,civ,male,4.61,0.79,2024/01/12
+stu_1561,Reyansh Das,Information Technology,F,"9,47",69.5,06-03-2024
+STU-1446,  Aarav   Bhat  ,electrical,girl,6.66, 95 % ,2024/08/17
+STU-1381,Rohan Deshmukh,electronics,male,,93.4,2023/09/19
+stu_1212,PRANAV IYER,cse,female,8.76,58.9,2023-09-04
+stu_1628,Pari Choudhury,computer science,male,5.53,55.5,18/03/2024
+  STU-1107  ,Krishna Deshmukh,CS,girl,8.42,0.97,2024/03/18
+  STU-1119  ,Ishaan Kumar,it,M,"6,56",64.4,2024/04/13
+1265,Krishna Joshi,mechanical,Male,8.93,49.8,16/03/2024
+  STU-1503  ,Kabir Choudhury,mech,boy,8.46,76.9,2023-09-13
+1099,  Atharva   Joshi  ,information technology,male,NA,67.0,23/08/2023
+1440,Aadhya Sharma,eee,Male,8.55,58.2,2024-02-02
+STU-1312,Arjun Mishra,ece,M,-1.5,51.2,06/12/2023
+  STU-1461  ,  Atharva   Nair  ,  cse  ,Female,8.13,87.7,04/11/2023
+STU-1008,Diya Choudhury,Mechanical Engineering,girl,,82.5,25/08/2024
+  STU-1648  ,aadhya singh,electrical,M,5.5,110,2024-04-09
+  STU-1298  ,Rohan Mishra,electrical,Female,8.6,91%,2024/08/01
+STU-1366,Saanvi Mehta,computer science,Female,7.44, 84 % ,13/08/2024
+1558,MYRA SINGH,eee,girl,7.79,77.4,07-20-2024
+  STU-1196  ,  Aarohi   Pillai  ,  cse  ,female,"5,16",71.0,2024-05-05
+  STU-1075  ,Riya Menon,mech,Female,4.48,0.89,09-19-2023
+stu_1123,KABIR VERMA,information technology,M,8.09,40.3,2023/10/20
+1238,REYANSH MENON,CE,female,"8,79",76.2,invalid-date
+STU-1454,Atharva Menon,electronics,M,3.67,63.3,09-24-2023
+STU-1353,ISHA RAO,CS,girl,NA, 79 % ,23/11/2023
+  STU-1593  ,reyansh patel,Mechanical Engineering,boy,4.48,82.0,08-23-2024
+  STU-1536  ,PRANAV JOSHI,CS,Female, 5.86 , 60 % ,22/09/2023
+  STU-1131  ,  Ayaan   Iyer  ,CS,girl,6.4,43.4,2024-01-05
+  STU-1277  ,SHAURYA REDDY,civ,F,7.43,0.63,16/09/2023
+STU-1647,Saanvi Sharma,civil,female,,71.1,2023-08-09
+STU-1589,DIYA IYER,  Civil Engineering  ,boy,NA,0.64,20/06/2024
+1191,pranav joshi,civil,M,NA,57.9,2024-06-04
+STU-1559,  Anika   Das  ,information technology,Other,6.3,60%,30/05/2024
+STU-1310,  Advik   Reddy  ,  ece  ,non-binary,5.99,74.8,
+1006,  Pranav   Mehta  ,information technology,Female,"8,32",84.1,2024/05/25
+  STU-1163  ,  Ayaan   Singh  ,civ,F,7.41, 89 % ,07-27-2024
+STU-1038,Shaurya Mishra,  it  ,Female,9.31,51.7,17/06/2024
+1111,  Rohan   Kumar  ,Mechanical Engineering,Male,"6,41",60.1,08-02-2024
+  STU-1425  ,  Vivaan   Nair  ,info tech,male,7.49,70.7,26/03/2024
+1630,  Ayaan   Mehta  ,Civil Engineering,F,6.23,94%,10/05/2024
+  STU-1615  ,  Rohan   Choudhury  ,mechanical,F,4.75,0.76,15/08/2023
+stu_1394,  Sai   Sharma  ,Electrical Engineering,girl, 8.28 ,85.5,24/02/2024
+STU-1588,  Ananya   Kumar  ,ece,M,6.71,74.9,2023-11-26
+stu_1322,ADVIK BOSE,electrical,M,-1.5,77%,2023-12-26
+stu_1301,SARA SHARMA,CS,girl,6.19,61.9,08-17-2023
+1067,  Advaith   Patel  ,ee,female,-1.5,58.0,19/09/2023
+  STU-1140  ,KABIR DESHMUKH,mechanical,Other,5.31,58.2,2024/04/11
+1591,  Pranav   Mishra  ,electronics and comm,M,5.11, 50 % ,29/08/2024
+stu_1441,Sara Das,mechanical,Female,9.49,90%,2024/01/10
+stu_1061,POOJA RAO,electronics,Female,7.77,57.0,2023/09/07
+STU-1210,  Sai   Bose  ,electrical,Other,NA,110,2024/05/01
+  STU-1048  ,Rohan Mishra,electronics,Female,6.41,86.5,04/07/2024
+  STU-1124  ,rohan iyer,mech,Male,4.07,82.7,2023/10/29
+STU-1548,ADVIK MENON,Civil Engineering,Female,6.91,83.3,2024-08-07
+STU-1393,  Meera   Bhat  ,CE,M,5.04,,20/11/2023
+1578,  Kabir   Deshmukh  ,ee,girl,8.61, 67 % ,11-26-2023
+STU-1511,Angel Sharma,  ME  ,M,"6,55",93.8,16/08/2023
+1354,ANGEL DAS,ee,F,9.15,,2024/01/27
+stu_1563,ADVAITH VERMA,CE,Female,7.72,72.3,2024/07/13
+1476,Pari Bose,electronics and comm,non-binary,7.98, 73 % ,07-23-2024
+1326,  Anika   Mehta  ,eee,F,5.77,97.7,09-01-2023
+  STU-1610  ,Krishna Reddy,ME,male,4.42,93.9,2023-11-23
+  STU-1596  ,ANANYA MISHRA,Mechanical Engineering,Other,-1.5,,21/08/2023
+STU-1027,aadhya bhat,Electrical Engineering,female,7.05,62.4,10-29-2023
+stu_1053,  Angel   Deshmukh  ,information technology,Male,7.02,81.2,18/06/2024
+  STU-1375  ,Pranav Deshmukh,civil,M,,0.83,2023/08/10
+1025,vivaan reddy,Electronics & Communication Engineering,Female,,60.4,2024-03-11
+stu_1368,SARA NAIR,it,F,,88%,03-31-2024
+stu_1031,AYAAN JOSHI,civil,Other,9.58,82.4,2024/05/07
+STU-1547,ANGEL SHARMA,electronics and comm,male,7.35,40.7,2024/06/25
+stu_1308,sara mishra,Information Technology,Male,6.74,76.6,13/06/2024
+1040,  Isha   Gupta  ,Electronics & Communication Engineering,Female,9.39,88.7,13/01/2024
+1367,ATHARVA SINGH,CE,Other, 5.69 ,0.95,2024/04/10
+1018,  Kabir   Singh  ,computer science,Female,9.45,,2024-05-15
+STU-1602,Ayaan Sharma,computer science,M,9.51,40.6,05-04-2024
+1534,Kabir Iyer,Computer Science & Engineering,Male,4.73, 91 % ,25/10/2023
+stu_1177,  Ayaan   Rao  ,ME,F,5.09, 76 % ,2024-07-19
+  STU-1257  ,  Myra   Joshi  ,Civil Engineering,female,6.92,84.6,2024-07-24
+  STU-1292  ,  Sara   Patel  ,info tech,male,7.6,76.1,2023-09-06
+  STU-1553  ,  Anika   Deshmukh  ,mech,F,8.73,62.3,
+1282,  Ananya   Joshi  ,it,boy,9.65,74.6,invalid-date
+STU-1336,  Sai   Reddy  ,information technology,Other,8.15,49.4,23/08/2023
+stu_1293,pari choudhury,ee,female,6.35,110,2024/03/18
+STU-1358,SAI IYER,it,Male,7.73,77%,01-10-2024
+STU-1115,advik bose,CS,girl,5.29,47.0,02-18-2024
+stu_1344,Saanvi Singh,Mechanical Engineering,Other,3.54, 83 % ,invalid-date
+1254,  Myra   Reddy  ,electronics and comm,Female,,85.5,2024/04/17
+stu_1355,SAANVI BOSE,  civ  ,M,7.66,63.6,13/06/2024
+1612,ISHAAN PATEL,  CS  ,female,"5,06",84.1,2024/01/01
+  STU-1278  ,sai patel,electronics,non-binary,,850,04-23-2024
+1262,AADHYA RAO,it,F,4.58,82.0,12-20-2023
+  STU-1406  ,  Sai   Bhat  ,ece,non-binary,9.54,-5,03-06-2024
+  STU-1032  ,SARA SINGH,information technology,Other,5.03,53.8,2024-05-03
+STU-1419,pranav iyer,Electronics & Communication Engineering,Other,,94.5,2024/07/28
+stu_1607,ISHAAN CHOUDHURY,mechanical,girl,4.22,48.5,05/10/2023
+1350,PRANAV CHOUDHURY,ece,Other,6.32,0.56,invalid-date
+STU-1533,Pranav Joshi,information technology,M, 5.47 ,,27/08/2024
+1468,isha gupta,eee,female,7.81,87.2,14/06/2024
+STU-1560,angel gupta,mechanical,Male,7.28,850,03/02/2024
+  STU-1635  ,atharva das,civ,boy,NA,69.8,02-17-2024
+1029,sai kumar,electronics,male,, 70 % ,29/02/2024
+1498,advik patel,ee,girl,3.74,75.8,invalid-date
+STU-1389,KABIR MENON,mechanical,M,6.6,0.95,02-15-2024
+STU-1236,  Shaurya   Reddy  ,it,non-binary,4.66,-5,07/08/2024
+STU-1455,  Isha   Mehta  ,information technology,non-binary, 5.61 ,66.7,10/08/2024
+STU-1456,Saanvi Choudhury,  eee  ,non-binary,6.05,91.1,15/11/2023
+stu_1538,Aarav Kumar,info tech,M,8.22,43.5,30/12/2023
+  STU-1207  ,Shaurya Verma,mech,boy,7.05,79.0,2023-09-19
+1065,  Shaurya   Singh  ,Mechanical Engineering,F, 6.5 ,53.3,2024/07/11
+stu_1202,NAVYA KUMAR,mechanical,Female,15.0,,2024/05/20
+STU-1374,myra das,cse,Female,"4,4",51.8,2024/06/26
+  STU-1435  ,DIYA MISHRA,electronics and comm,boy,4.23,88%,2024/03/11
+  STU-1426  ,pooja bhat,Information Technology,Other, 9.6 ,94.0,2024/01/09
+1066,Sai Das,electronics and comm,girl,8.29,110,25/09/2023
+1634,PARI CHOUDHURY,it,boy,6.0,-5,2024/05/22
+1263,  Rohan   Joshi  ,ME,girl,4.62,90.7,02/05/2024
+stu_1125,  Aditya   Das  ,Electronics & Communication Engineering,Female,3.56,0.98,2024/06/24
+1530,AAROHI JOSHI,electronics and comm,Male,3.97,62.5,2023/11/08
+  STU-1011  ,PRANAV PILLAI,ee,F,6.81, 62 % ,2023-11-21
+STU-1616,Arjun Iyer,electrical,boy, 7.59 , 96 % ,2024-04-04
+STU-1417,Advik Reddy,Electrical Engineering,Male, 9.31 ,45%,04/06/2024
+1523,Pari Rao,it,male,"9,53", 78 % ,2024/02/17
+  STU-1287  ,Pari Sharma,Electrical Engineering,non-binary,12.5,55.3,11-30-2023
+  STU-1015  ,  Rohan   Iyer  ,cse,Male,5.2,65.0,2024/05/11
+STU-1318,Advaith Deshmukh,information technology,female,,58.8,15/01/2024
+  STU-1450  ,krishna patel,ee,male,5.5,97.4,2024/02/01
+  STU-1216  ,  Pari   Singh  ,info tech,boy,9.35,70.5,29/08/2023
+stu_1624,  Reyansh   Das  ,ece,M,9.88,68.1,20/08/2023
+STU-1219,SHAURYA RAO,electronics,boy, 6.12 ,85.3,invalid-date
+1346,vivaan iyer,  ME  ,male,3.7,89.7,16/02/2024
+  STU-1240  ,  Sai   Mehta  ,  mech  ,girl,3.61,,09-16-2023
+1184,Reyansh Rao,electronics,Male,,54.4,13/02/2024
+STU-1513,anika iyer,civil,F,9.52,92.0,2023-09-03
+stu_1161,KABIR BHAT,Information Technology,Other,6.46,51.0,2024-02-19
+  STU-1227  ,  Meera   Das  ,CE,Male,8.18,84.7,2023-08-10
+stu_1636,Pari Iyer,  CS  ,Male, 7.3 ,94.3,2024-02-12
+STU-1469,ROHAN GUPTA,ece,girl,12.5,69.1,2024-05-12
+  STU-1050  ,Sara Patel,Civil Engineering,non-binary,4.08,73.9,08-26-2024
+  STU-1333  ,Aditya Bhat,civil,Male,5.07,42.3,2024-08-26
+stu_1619,ANIKA JOSHI,mech,non-binary,6.26,62.9,2024-06-08
+stu_1094,MEERA PATEL,civil,Male,6.04,-5,08-15-2023
+stu_1643,  Pooja   Menon  ,Civil Engineering,Female,7.49,73.5,2024-06-19
+  STU-1237  ,  Ayaan   Menon  ,  cse  ,F,,71.0,05/08/2024
+1549,ISHAAN SINGH,eee,Female,,71%,2024/03/01
+stu_1153,krishna singh,electronics and comm,M,"5,6",86%,2024/08/04
+  STU-1044  ,diya rao,comp sci,Female, 4.65 ,56.2,05-10-2024
+STU-1372,Vivaan Deshmukh,cse,boy,7.58,0.91,02/07/2024
+  STU-1447  ,PRANAV DESHMUKH,Mechanical Engineering,boy,6.11, 58 % ,2024/02/06
+stu_1329,Shaurya Choudhury,Information Technology,M,"8,87",0.42,2024/02/28
+1284,pranav rao,Electronics & Communication Engineering,boy,4.78,52.2,12-06-2023
+STU-1416,ADVAITH GUPTA,ee,male,9.78,46.6,invalid-date
+stu_1070,vivaan verma,electronics,non-binary,8.81,88.0,31/08/2024
+1365,Saanvi Nair,ee,Female, 7.11 ,50.0,
+STU-1103,arjun das,civ,male,4.41,42.1,09-02-2024
+STU-1529,kabir nair,information technology,M,8.12,98.6,2024-02-05
+1411,pooja patel,it,female,7.52,47.1,2024-05-21
+  STU-1166  ,  Aarohi   Mehta  ,ee,girl,"7,28",53.0,invalid-date
+1224,sai kumar,electronics,Female,9.18,67.4,2023-08-28
+  STU-1289  ,MYRA IYER,  eee  ,Male,"6,9",90.1,08-03-2024
+1089,Riya Gupta,Mechanical Engineering,F,7.79,80.4,2024/06/26
+1160,  Isha   Iyer  ,ME,girl, 6.4 ,,08-12-2023
+STU-1460,Arjun Verma,civ,M,8.11,110,2024-04-14
+1470,ANANYA BOSE,Electronics & Communication Engineering,Other,,0.65,01/10/2023
+1627,shaurya iyer,Civil Engineering,Other,4.53,110,06/08/2023
+STU-1579,aadhya menon,CS,M,9.55,0.84,2024-04-09
+  STU-1205  ,  Myra   Bose  ,comp sci,non-binary,7.9,0.9,01-11-2024
+  STU-1217  ,Krishna Bhat,Electronics & Communication Engineering,boy,5.1,81.6,2024/03/25
+  STU-1198  ,NAVYA RAO,  Electronics & Communication Engineering  ,boy,8.72,0.99,02-15-2024
+1010,KABIR VERMA,it,M,8.72,47.4,08/05/2024
+1128,Kabir Verma,civil,female,9.41,80.7,12-30-2023
+  STU-1518  ,  Sara   Joshi  ,Civil Engineering,girl,5.95,79%,2024-04-13
+stu_1243,  Anika   Reddy  ,cse,non-binary,12.5,74.8,2024-04-12
+1606,ATHARVA MENON,Electrical Engineering,non-binary,5.73,79.0,2024-07-30
+  STU-1555  ,Aarohi Iyer,information technology,F,,-5,08-11-2024
+1391,SHAURYA DESHMUKH,it,boy,NA,68.9,2024/05/29
+stu_1042,  Sai   Kumar  ,CE,boy,7.63,45.5,20/07/2024
+STU-1300,  Isha   Deshmukh  ,electronics and comm,girl,"4,11",,2023-11-04
+STU-1405,  Aadhya   Sharma  ,info tech,girl,5.59, 72 % ,2023-11-09
+  STU-1580  ,  Krishna   Mehta  ,civ,Other,6.1,84.0,07-25-2024
+1074,  Isha   Bhat  ,comp sci,M,7.67,52.7,2023/11/25
+stu_1525,arjun das,ece,Other,NA,0.71,2024/02/27
+stu_1045,Pooja Reddy,it,girl, 4.68 ,68.2,2024/02/22
+STU-1650,Ananya Verma,cse,M,7.9,110,2023/10/10
+STU-1012,Advaith Patel,  mech  ,boy,6.61,92.1,2023/12/03
+STU-1388,Atharva Nair,CE,M,8.12, 55 % ,2024-09-02
+1010,KABIR VERMA,it,M,8.72,47.4,08/05/2024
+  STU-1524  ,  Arjun   Pillai  ,ece,F,6.39,0.46,2023/08/17
+  STU-1481  ,KRISHNA MEHTA,  civil  ,Other,7.08,74.5,2024/03/13
+STU-1618,  Ishaan   Sharma  ,CE,Male,4.47,45.5,19/11/2023
+stu_1129,KRISHNA MEHTA,civil,non-binary,7.99,87.3,25/08/2024
+stu_1026,  Ananya   Verma  ,Computer Science & Engineering,Other,9.52, 67 % ,06-15-2024
+STU-1510,Pooja Kumar,information technology,boy,4.86,88.1,09/02/2024
+stu_1339,VIHAAN NAIR,cse,Male,"4,19",75.6,2023-09-14
+1471,navya verma,computer science,Other, 4.17 ,87.1,2024-08-21
+STU-1438,Kabir Deshmukh,electrical,F,8.22,95.2,24/09/2023
+1003,Aditya Joshi,  mechanical  ,Female,7.46,81.6,
+stu_1157,  Ananya   Gupta  ,  mechanical  ,non-binary,6.07,80.8,2024-02-01
+stu_1509,advik patel,ece,girl,5.62,76.4,2023-10-23
+STU-1028,AADHYA MISHRA,Civil Engineering,non-binary,6.48, 70 % ,2023-10-26
+STU-1064,Aadhya Joshi,it,male,NA,84%,05-03-2024
+1006,  Pranav   Mehta  ,information technology,Female,"8,32",84.1,2024/05/25
+stu_1145,REYANSH REDDY,electronics,Other,5.77,0.97,03/12/2023
+stu_1566,MYRA MENON,  cse  ,girl,"4,3",78.4,2023/10/16
+1021,aditya sharma,  electrical  ,Female,"6,56",73.1,19/07/2024
+1404,saanvi mehta,electrical,non-binary,8.62,60.0,2024-04-02
+STU-1008,Diya Choudhury,Mechanical Engineering,girl,,82.5,25/08/2024
+STU-1611,Ishaan Das,ee,F,,0.74,31/05/2024
+  STU-1034  ,rohan sharma,Mechanical Engineering,female,8.2,68.8,2024-04-05
+  STU-1401  ,ISHA MISHRA,Mechanical Engineering,Female,5.88,48.8,25/10/2023
+  STU-1477  ,Advik Mishra,cse,female,8.24,56.8,05-09-2024
+  STU-1601  ,ADVIK PATEL,CS,girl,9.71,82.9,2024-06-04
+stu_1084,NAVYA BOSE,  electronics  ,Female,"7,49",78.7,2024/08/30
+1622,RIYA MENON,civil,non-binary,5.89,55.5,2024-07-15
+1286,RIYA KUMAR,cse,female,6.96,110,2024-03-22
+STU-1632,SAANVI MENON,electronics,Other,9.8,15%,2024/02/28
+1499,POOJA NAIR,Electrical Engineering,non-binary,3.92,0.55,11-25-2023
+STU-1268,ANANYA DAS,civ,F,6.59,48.2,09-09-2023
+STU-1649,Vivaan Kumar,  Computer Science & Engineering  ,F,8.14,0.83,2024-05-02
+STU-1640,ayaan choudhury,CE,non-binary,4.51,51.4,invalid-date
+  STU-1239  ,Pooja Nair,electrical,boy,5.28,62.3,2023/09/10
+1451,ananya bhat,Civil Engineering,F,6.64,94.4,2024-03-13
+STU-1351,pranav pillai,Information Technology,male,8.65, 61 % ,26/08/2023
+  STU-1256  ,Arjun Gupta,civil,Male,NA,0.87,21/05/2024
+stu_1005,  Shaurya   Joshi  ,electronics and comm,Other,5.58,0.88,02-22-2024
+  STU-1505  ,  Riya   Reddy  ,electronics,non-binary,,850,2024-06-13
+1148,VIVAAN IYER,electrical,female,5.42,90.1,05-03-2024
+1178,PRANAV BHAT,eee,Male,8.58,-5,2024-05-31
+STU-1501,advaith verma,Civil Engineering,F,, 49 % ,invalid-date
+STU-1233,  Sai   Reddy  ,computer science,Other,NA,93.4,03-21-2024
+STU-1644,  Ananya   Rao  ,Mechanical Engineering,Other,3.69,86%,07-02-2024
+  STU-1063  ,Diya Sharma,info tech,Female,4.97,55%,27/08/2024
+1314,  Pari   Bose  ,electrical,F,7.1,94.6,2024/03/19
+STU-1570,PRANAV REDDY,info tech,Male,8.62,0.52,05-14-2024
+1360,  Vivaan   Kumar  ,ee,F,6.1,54%,2024/02/01
+  STU-1267  ,aditya verma,comp sci,Other,5.25,73.6,02-10-2024
+  STU-1297  ,  Advaith   Patel  ,Mechanical Engineering,Female,"4,06",84.7,2023/12/25
+stu_1519,Reyansh Reddy,  ME  ,boy,7.82,85.3,06/11/2023
+  STU-1098  ,aditya das,electronics and comm,F,5.71,85.5,18/01/2024
+  STU-1159  ,ISHA RAO,ME,girl,12.5,45.1,08/08/2024
+stu_1142,MYRA RAO,CE,F,8.76,68.9,28/01/2024
+stu_1637,ISHA BOSE,electronics,boy,6.93,86.4,2024-07-03
+1575,Ayaan Pillai,Electrical Engineering,M,4.07,48.6,2023-12-19
+stu_1201,ishaan reddy,CS,female,5.65,83.2,2024/06/23
+  STU-1170  ,VIHAAN SINGH,ee,boy,"5,87",89%,06-19-2024
+STU-1179,ANGEL CHOUDHURY,mechanical,non-binary,9.8,15%,2024-05-27
+STU-1427,aditya nair,ee,female,"8,15",46.5,2024/07/03
+1136,advaith rao,it,F,9.11,64.4,12/05/2024
+STU-1090,ANGEL MISHRA,ece,girl,"9,8", 60 % ,2024-05-03
+stu_1270,Krishna Bhat,  it  ,male,4.65,73.3,invalid-date
+1231,ROHAN GUPTA,ee,Male,7.73,77%,2023-09-23
+STU-1279,  Atharva   Mehta  ,Computer Science & Engineering,Other,3.72,53.7,08-19-2023
+  STU-1348  ,VIVAAN MEHTA,ece,girl,6.85,0.91,21/04/2024
+1633,advaith bhat,electronics and comm,Female,9.28,40.2,2023-08-17
+  STU-1141  ,pari iyer,mech,non-binary, 8.24 ,74.5,30/12/2023
+1056,  Aadhya   Rao  ,computer science,girl,7.03,59.0,23/07/2024
+STU-1453,ishaan reddy,CS,Female,"4,98",56.1,26/05/2024
+STU-1574,diya iyer,it,Other,6.19,65.6,invalid-date
+1100,  Aadhya   Bhat  ,Information Technology,Male,4.72,91.1,10-03-2023
+STU-1046,ishaan gupta,CS,M,6.16,85.8,03-14-2024
+STU-1382,  Reyansh   Reddy  ,info tech,boy,NA, 62 % ,02-22-2024
+1106,navya patel,Mechanical Engineering,male,6.76, 52 % ,invalid-date
+STU-1185,aarohi kumar,electronics,F,4.0,93.2,2024-04-21
+1221,Saanvi Mishra,  CE  ,Female,9.01,92.7,16/10/2023
+  STU-1357  ,Pari Pillai,civil,female,NA,0.88,02-11-2024
+STU-1380,RIYA REDDY,information technology,girl,9.07,53.7,11/08/2024
+1296,rohan joshi,Information Technology,Other,"7,47",77.5,04-25-2024
+stu-1004,  Advaith   Reddy  ,electronics and comm,F,"6,06",81.4,06/09/2023
+1016,Pranav Verma,eee,Male,6.72,95%,2024-05-31
+  STU-1595  ,Pooja Pillai,Electronics & Communication Engineering,Other,8.49,54%,2024-07-22
+STU-1183,  Vivaan   Choudhury  ,electronics and comm,Female, 7.19 ,61.2,17/05/2024
+STU-1073,  Vihaan   Mehta  ,Civil Engineering,girl,6.34,52%,05-26-2024
+  STU-1338  ,Pooja Pillai,info tech,boy,7.72,75.5,invalid-date
+1608,  Pari   Mehta  ,CE,female,7.57,94.4,2024/05/08
+1463,Riya Mishra,  computer science  ,boy,-1.5,51.1,invalid-date
+  STU-1600  ,SAI MEHTA,civil,male,"6,85",78.2,invalid-date
+STU-1492,KABIR PILLAI,Mechanical Engineering,girl,NA,52.0,08/02/2024
+  STU-1011  ,PRANAV PILLAI,ee,F,6.81, 62 % ,2023-11-21
+stu_1328,meera mishra,civil,boy,7.22, 52 % ,2023/10/09
+stu_1625,Pranav Choudhury,info tech,Male,5.81,43.2,2024/08/23
+  STU-1466  ,  Saanvi   Verma  ,mechanical,non-binary,9.49,53.7,2023/08/10
+STU-1352,Reyansh Das,CS,male,9.2,66.3,18/01/2024
+  STU-1139  ,ADITYA PATEL,electrical,Other,4.84,93%,2024-08-14
+1058,Reyansh Joshi,civ,Male,6.12, 69 % ,2024/07/20
+1248,Pranav Pillai,ME,M,7.82,79%,07-22-2024
+stu_1306,  Reyansh   Gupta  ,electronics,Other,8.34,51.4,31/01/2024
+STU-1432,  Aadhya   Rao  ,electronics,M,7.2, 75 % ,2024-01-25
+1443,Isha Sharma,information technology,girl,4.37,58.5,20/10/2023
+  STU-1586  ,pooja gupta,electrical,female,9.41,-5,11/08/2023
+stu_1478,vivaan sharma,electronics,Female,9.82,0.62,2024-01-29
+  STU-1491  ,Ayaan Singh,mech,female,NA,,08-10-2023
+stu_1266,Rohan Bose,electronics,boy,NA,-5,04-22-2024
+  STU-1457  ,Saanvi Gupta,Mechanical Engineering,female,9.4,61.2,05/02/2024
+  STU-1528  ,  Navya   Mishra  ,info tech,male,4.65,62.7,2024-07-23
+STU-1364,Kabir Mehta,Electrical Engineering,non-binary,3.84,67.7,03-28-2024
+  STU-1590  ,  Rohan   Verma  ,  information technology  ,M,9.8,15%,
+1006,  Pranav   Mehta  ,information technology,Female,"8,32",84.1,2024/05/25
+stu_1007,Pooja Patel,comp sci,male, 6.2 ,850,2024-05-10
+stu_1007,Pooja Patel,comp sci,male, 6.2 ,850,2024-05-10
+  STU-1235  ,diya patel,mech,female,6.42,68.2,2023-10-25
+  STU-1187  ,ADVIK PILLAI,  computer science  ,female,9.8,15%,08-05-2023
+STU-1130,sara bhat,CS,M,NA,69.8,16/10/2023
+1250,advik iyer,civil,M,"5,01",62.3,05-11-2024
+stu_1340,SHAURYA MISHRA,civil,F,4.1,850,2024/08/23
+STU-1132,Pranav Rao,cse,M,3.89,67.9,01/11/2023
+STU-1582,  Saanvi   Mishra  ,Mechanical Engineering,Male,7.14, 94 % ,2023/08/19
+stu_1180,  Aditya   Verma  ,civ,Other,6.21,71.7,09-12-2023
+stu_1512,ADVAITH SINGH,mech,boy,"4,12",93.7,invalid-date
+1252,ARJUN CHOUDHURY,Electronics & Communication Engineering,Other,"7,15",60.6,07-05-2024
+STU-1552,aarav verma,electrical,non-binary,3.77,62.2,08-24-2024
+  STU-1172  ,  Navya   Patel  ,ece,boy,5.57,47.7,2024-01-23
+STU-1377,Myra Mehta,it,F, 5.44 ,78.2,2024-01-22
+stu_1412,vihaan gupta,civil,male,3.84,96.4,
+stu_1156,Atharva Pillai,eee,boy,5.36,86.9,12/04/2024
+stu_1565,  Krishna   Joshi  ,Mechanical Engineering,boy,8.29,,2024-05-21
+stu_1049,ISHAAN SINGH,  CS  ,Female,8.78,67.7,02-23-2024
+1397,Kabir Pillai,information technology,non-binary,8.0,58.9,2024/04/14
+STU-1076,  Anika   Reddy  ,ME,female,8.11,60.7,17/11/2023
+stu_1387,  Ayaan   Gupta  ,CE,Male,,-5,2024/01/19
+1086,  Arjun   Patel  ,civil,Male,8.68,70%,09-22-2023
+STU-1258,Saanvi Mishra,Mechanical Engineering,girl, 8.76 , 56 % ,05-06-2024
+stu_1269,Shaurya Bose,Electrical Engineering,F,6.58, 53 % ,invalid-date
+stu_1117,pari deshmukh,Electronics & Communication Engineering,non-binary,5.42,71.4,2024/01/01
+stu_1428,vihaan das,CE,female,5.76,46%,2024-01-26
+stu_1149,sai bhat,  cse  ,boy,5.68,63.4,08-16-2023
+stu_1638,Vivaan Rao,comp sci,non-binary,-1.5,92%,02/02/2024
+1291,Ananya Bose,  Civil Engineering  ,non-binary,"7,34",50.3,01-29-2024
+STU-1009,AADHYA BHAT,computer science,male,8.48,,2023-08-10
+stu_1420,SARA REDDY,ME,female,4.96,47.3,2023/10/09
+STU-1024,ROHAN KUMAR,civil,boy,7.72, 48 % ,2024/04/17
+stu_1057,aarohi verma,eee,female,7.75,69.2,invalid-date
+1242,saanvi pillai,  ee  ,male,8.76,55.0,2023/10/01
+1127,Sai Das,Electronics & Communication Engineering,girl,5.09, 84 % ,2024-08-05
+  STU-1448  ,  Krishna   Choudhury  ,Electrical Engineering,female,8.21,0.43,2023/11/29
+1251,  Aarav   Choudhury  ,ee,Male,"5,87",0.95,07-04-2024
+STU-1001,VIVAAN SINGH,  electronics  ,M, 9.21 ,41.8,2024-04-15
+stu_1299,  Ananya   Patel  ,information technology,non-binary,7.88,87.7,05/09/2023
+  STU-1522  ,VIVAAN BOSE,it,Female,3.56,60.0,2024/07/17
+  STU-1598  ,Saanvi Choudhury,information technology,F,9.68,71.7,2024-09-02
+1010,KABIR VERMA,it,M,8.72,47.4,08/05/2024
+1531,ayaan gupta,Electrical Engineering,girl,4.03,65.8,21/12/2023
+stu_1079,  Myra   Menon  ,mech,Female,8.47,0.43,2024-06-12
+stu_1007,Pooja Patel,comp sci,male, 6.2 ,850,2024-05-10
+stu_1182,AYAAN SHARMA,  ee  ,girl,6.85,49.9,09-03-2024
+1022,ISHAAN MENON,cse,Male,4.84,0.86,25/02/2024
+stu_1343,Aarav Reddy,civil,M,9.8,15%,22/06/2024
+1439,sara menon,  it  ,Other,9.57,80.3,10-14-2023
+  STU-1486  ,  Myra   Kumar  ,mech,girl,7.63,73.7,07-28-2024
+1645,ayaan sharma,  ee  ,F,7.13,48%,2023-11-20
+STU-1146,  Aditya   Patel  ,mechanical,girl,,,2024/04/12
+STU-1467,  Diya   Menon  ,comp sci,F,6.29,67.7,16/04/2024
+STU-1341,SAANVI MEHTA,comp sci,Female,6.15, 48 % ,2024-04-27
+1604,  Reyansh   Bhat  ,  computer science  ,boy,,48.7,2023/11/24
+  STU-1171  ,Sara Patel,mechanical,Female,9.11,74.3,2024-08-10
+1072,  Vihaan   Gupta  ,  civ  ,M,8.48,0.7,08-23-2023
+STU-1323,  Aadhya   Joshi  ,Computer Science & Engineering,Other,7.0,76.8,2024-07-21
+  STU-1175  ,aarav sharma,comp sci,female,6.56,0.88,02-05-2024
+STU-1557,  Aadhya   Pillai  ,Electronics & Communication Engineering,M,6.96, 95 % ,2024-08-01
+  STU-1313  ,reyansh rao,Electrical Engineering,female,4.57,59.9,2024/06/03
+STU-1489,SHAURYA MISHRA,Electronics & Communication Engineering,M,"9,52",43.5,2023-11-01
+stu_1516,  Pari   Bose  ,ee,girl,6.07,42.2,2023/11/12
+1190,riya choudhury,civil,M,4.37,0.46,2024/01/08
+1097,meera sharma,electronics,male,4.05,0.71,2024-04-16
+STU-1004,  Advaith   Reddy  ,electronics and comm,F,"6,06",81.4,06/09/2023
+1540,ANIKA KUMAR,  Information Technology  ,boy,7.96,70.8,2024-06-18
+STU-1295,REYANSH SINGH,CS,female,5.08,47.7,2023-08-15
+  STU-1356  ,myra patel,ece,non-binary,9.77,81%,2024/08/13
+1209,  Riya   Mehta  ,Electrical Engineering,Other,5.87,47%,2023-12-16
+stu_1176,Ishaan Patel,info tech,girl,4.86,76.3,2023-11-20
+STU-1001,VIVAAN SINGH,  electronics  ,M, 9.21 ,41.8,2024-04-15
+1508,anika mishra,Computer Science & Engineering,male,,89.3,03-04-2024
+STU-1275,AARAV DAS,ee,female,4.49,90%,2023/12/20
+stu_1226,sai mehta,information technology,F,3.53,49.9,2024-04-07
+STU-1554,  Aarav   Joshi  ,eee,male,,0.71,19/08/2024
+stu_1403,ANGEL JOSHI,Information Technology,Male,6.7,58.9,invalid-date
+1402,ATHARVA NAIR,Electronics & Communication Engineering,Male,7.18,-5,08-18-2023
+STU-1415,Ayaan Gupta,CE,F,"6,56",70.9,10-28-2023
+STU-1009,AADHYA BHAT,computer science,male,8.48,,2023-08-10
+STU-1571,sai reddy,ME,male, 9.55 , 95 % ,2024/07/03
+STU-1104,ishaan joshi,ME,M,6.89,54.7,11/08/2024
+1545,  Pooja   Das  ,mechanical,F,5.47,0.92,2023/10/03
+stu_1068,myra joshi,Electrical Engineering,Other,8.25,45.8,02-25-2024
+stu_1245,diya das,Mechanical Engineering,male,"7,49",70.2,05-07-2024
+STU-1273,  Ayaan   Patel  ,  Electrical Engineering  ,non-binary,3.51,65.5,2023/08/23
+STU-1037,VIVAAN KUMAR,Computer Science & Engineering,boy,15.0,0.96,12-10-2023
+  STU-1584  ,aarav gupta,electronics,F,6.24,46.4,12/03/2024
+1118,  Anika   Reddy  ,it,Male,5.2,74.1,2023/08/27
+stu_1626,Sai Gupta,electronics and comm,Female,6.39,92%,
+1114,vihaan verma,CE,girl,3.55,0.56,02-23-2024
+1255,Advik Choudhury,comp sci,Other,7.51,52.6,23/09/2023
+  STU-1052  ,Saanvi Das,  civil  ,Female,9.71,98.3,2024/05/04
+1112,riya gupta,civ,F,4.28,0.43,2024/06/11
+stu_1444,  Aarohi   Choudhury  ,CE,male,7.9,51.7,2023/11/02
+STU-1532,reyansh nair,comp sci,female,"7,89",,03-13-2024
+STU-1506,isha bhat,it,M,,75.0,20/05/2024
+stu_1543,  Rohan   Joshi  ,civ,female,8.75,,09-12-2023
+  STU-1283  ,advaith kumar,Civil Engineering,Other,7.99, 66 % ,10/05/2024
+stu_1181,ishaan pillai,mechanical,M,6.3, 57 % ,2024-06-09
+STU-1413,Advik Nair,info tech,Other,5.52,56.0,2024-02-02
+STU-1194,VIVAAN PATEL,information technology,male,NA,87.7,2024-03-24
+stu_1302,  Vihaan   Singh  ,CS,male,"8,88",88.9,28/08/2024
+stu_1199,atharva kumar,eee,non-binary,,95.9,15/05/2024
+1433,aadhya menon,ece,Female,6.4, 45 % ,2024/05/22
+1392,AARAV MENON,electronics,non-binary,9.44,93.0,2023-08-23
+stu_1051,  Rohan   Bhat  ,electronics and comm,non-binary,8.71,64.1,23/09/2023
+  STU-1101  ,sara das,Electronics & Communication Engineering,girl,8.6,0.65,11-01-2023
+stu_1379,VIVAAN RAO,CE,Other,6.7,97.0,invalid-date
+STU-1280,shaurya patel,electrical,female, 4.78 ,94.2,08-06-2024
+STU-1452,Advaith Nair,CE,girl,9.87,,2024/07/29
+  STU-1055  ,KABIR JOSHI,mechanical,non-binary,9.13,86%,04-16-2024
+1342,meera deshmukh,electronics and comm,non-binary,4.33,77.3,01/11/2023
+stu_1521,  Advaith   Iyer  ,electronics,Other,8.12,58.5,2024/08/29
+1613,sara sharma,comp sci,Male,4.61,850,03-20-2024
+STU-1515,  Diya   Gupta  ,ece,girl,7.44,110,2024/02/08
+STU-1407,saanvi bose,Mechanical Engineering,Other,NA,66.2,03-14-2024
+stu_1155,ROHAN CHOUDHURY,mechanical,Female,7.55,59.2,02-18-2024
+STU-1646,aarohi menon,mech,Male,6.69,47.3,2024/01/15
+1442,  Sai   Mehta  ,eee,F,9.11,81.2,2024/01/28
+STU-1363,Rohan Bose,it,M,"8,24",98.0,2024-03-26
+STU-1087,ATHARVA VERMA,ee,girl,7.4,62.9,2024-07-13
+  STU-1564  ,riya patel,Mechanical Engineering,boy, 7.01 , 86 % ,
+  STU-1122  ,RIYA BOSE,  Mechanical Engineering  ,M,6.33,51.9,05-14-2024
+1272,Isha Deshmukh,electronics,male,-1.5,93.7,2023-10-16
+stu_1361,Krishna Sharma,  information technology  ,girl,9.74,0.88,2024/07/22
+STU-1623,Kabir Pillai,computer science,Female,7.15, 91 % ,2024/03/27
+stu_1544,  Atharva   Singh  ,civil,Female,9.8,15%,2023-11-06
+  STU-1488  ,sai pillai,mechanical,girl,3.65,90.7,2023-12-10
+  STU-1030  ,POOJA DAS,computer science,Male,9.01,52.9,2024/07/22
+  STU-1274  ,Myra Bose,  Civil Engineering  ,girl, 9.32 ,72.1,2023-08-03
+1192,ISHAAN PATEL,ME,Male,5.17,,19/03/2024
+STU-1472,Aditya Bhat,Electronics & Communication Engineering,boy,4.51,69.8,20/09/2023
+stu_1017,RIYA REDDY,it,non-binary,NA,73.3,12/12/2023
+stu-1001,VIVAAN SINGH,  electronics  ,M, 9.21 ,41.8,2024-04-15
+stu_1113,pari rao,ece,girl,6.49,45.3,22/03/2024
+1110,Aditya Sharma,cse,non-binary,4.85,41.8,05-06-2024
+1473,KRISHNA REDDY,civil,Male,8.68,45.0,2024/08/21
+stu_1151,  Myra   Gupta  ,mech,M,,64%,2023/11/04
+  STU-1105  ,ayaan singh,ee,non-binary,9.37,0.9,2024/07/31
+  STU-1015  ,  Rohan   Iyer  ,cse,Male,5.2,65.0,2024/05/11
+STU-1315,Aditya Mishra,  civ  ,Female,,52.7,08-30-2024
+  STU-1169  ,SHAURYA DESHMUKH,ece,Male,6.91,96%,2024-04-20
+  STU-1434  ,  Diya   Pillai  ,it,Male,5.83,81%,2024-01-11
+STU-1285,  Ayaan   Patel  ,  info tech  ,Other,8.93, 92 % ,2023/12/19
+STU-1071,DIYA GUPTA,Information Technology,male,9.8,15%,05-28-2024
+stu_1641,Pranav Bose,  ece  ,male,8.16, 70 % ,05-09-2024
+  STU-1410  ,Advaith Sharma,computer science,girl,15.0,64.6,18/07/2024
+  STU-1208  ,ishaan verma,Computer Science & Engineering,Female,7.5,0.52,2023/09/11
+STU-1526,  Krishna   Pillai  ,CE,female,9.04, 67 % ,06-05-2024
+stu_1464,MEERA PILLAI,CS,girl,"6,45",0.93,2024/03/15
+  STU-1642  ,  Meera   Bhat  ,ece,boy,9.18,110,05-27-2024
+stu_1373,  Ananya   Mishra  ,Electrical Engineering,girl,5.27,85.4,2023-10-22
+stu_1225,ayaan das,  Civil Engineering  ,male,"5,16",73.6,22/03/2024
+STU-1134,  Aadhya   Joshi  ,Information Technology,boy,5.72,82.8,2024/07/04
+1109,SAI SINGH,information technology,Female,12.5,45.5,30/05/2024
+  STU-1517  ,  Pranav   Mishra  ,mechanical,F,4.04,72%,
+stu_1158,Navya Nair,it,female,5.62,0.46,17/08/2024
+  STU-1465  ,kabir iyer,it,female,,,2024/07/31
+  STU-1320  ,  Krishna   Gupta  ,Information Technology,female,4.76,54.5,2024/09/01
+STU-1321,  Ayaan   Menon  ,ME,F,7.69, 63 % ,15/06/2024
+  STU-1527  ,Diya Iyer,computer science,female,5.08,69.0,2023-08-21
+stu-1002,advaith joshi,Computer Science & Engineering,male,5.68,59.9,09-19-2023
+STU-1605,Pooja Nair,  electronics  ,Female,7.44,94.3,05/06/2024
+STU-1214,saanvi pillai,Civil Engineering,girl,6.53,76.5,2024-02-22
+STU-1349,Isha Das,Computer Science & Engineering,Male, 7.3 ,42.7,07-03-2024
+1108,KRISHNA PILLAI,electrical,female,9.06,57.9,29/07/2024
+STU-1500,  Ananya   Pillai  ,Computer Science & Engineering,Male,5.57,47.2,04-10-2024
+STU-1193,Krishna Reddy,cse,boy,"8,78",110,09-13-2023
+1395,Isha Sharma,mechanical,F,5.4,76.1,2023-11-15
+1480,KRISHNA DAS,comp sci,non-binary,"8,52",48.6,2024-02-27
+  STU-1222  ,Pari Gupta,information technology,Female,6.18,,19/05/2024
+  STU-1014  ,KRISHNA MENON,electronics and comm,M,9.01,0.99,17/09/2023
+STU-1218,vivaan kumar,CE,male,6.54,89%,09-16-2023
+1062,  Meera   Singh  ,Mechanical Engineering,female,4.18,850,2023-12-30
+1507,  Navya   Menon  ,eee,male, 8.6 , 68 % ,07/01/2024
+stu_1077,reyansh bose,comp sci,non-binary,6.25,76.7,2024-05-12
+1080,  Sara   Menon  ,info tech,Female,6.78,0.8,04-26-2024
+stu_1211,Rohan Mishra,mechanical,Male,9.26,76.6,2024/08/22
+STU-1249,  Myra   Das  ,Electrical Engineering,Other,,52.0,14/03/2024
+  STU-1572  ,pari bhat,info tech,boy, 7.74 ,,19/11/2023
+  STU-1362  ,  Meera   Pillai  ,mechanical,male,3.55,82.0,05-06-2024
+  STU-1085  ,PARI CHOUDHURY,  civil  ,girl,8.6,-5,2024-03-19
+STU-1304,ananya mehta,ece,Male,4.89,59.1,2023-12-20
+1271,  Sai   Iyer  ,info tech,girl,"8,82",86.9,11-02-2023
+1095,Ishaan Gupta,Mechanical Engineering,girl,4.39,40.3,10/12/2023
+STU-1232,POOJA IYER,electrical,Other,5.79, 74 % ,04-03-2024
+1495,  Anika   Singh  ,electronics and comm,F,6.44,,2024-06-26
+1330,Ishaan Iyer,computer science,non-binary,7.38,53.6,invalid-date
+1288,  Angel   Nair  ,Civil Engineering,F,6.06,97.8,09-21-2023
+  STU-1502  ,ARJUN KUMAR,Electronics & Communication Engineering,M,4.12,75.0,01-19-2024
+1490,myra reddy,computer science,F,9.53,0.54,2023/11/30
+1592,angel kumar,ece,M,4.34,0.75,01/07/2024
+  STU-1247  ,Saanvi Menon,  civ  ,female,"7,89",84%,07/12/2023
+  STU-1541  ,Arjun Iyer,information technology,boy,-1.5,89.0,2023-11-29
+STU-1535,PARI CHOUDHURY,info tech,Other,6.24,0.59,invalid-date
+stu_1126,ISHA SINGH,comp sci,girl, 8.1 , 60 % ,2024/06/08
+  STU-1458  ,  Rohan   Singh  ,CS,F,6.28,,25/03/2024
+1003,Aditya Joshi,  mechanical  ,Female,7.46,81.6,
+  STU-1424  ,pooja bhat,computer science,M,12.5,77.1,2023-09-20
+  STU-1599  ,ANANYA DESHMUKH,civil,Female,7.53,850,2024/08/06
+  STU-1152  ,Reyansh Sharma,ME,non-binary,5.58,65%,03/12/2023
+STU-1327,DIYA KUMAR,mech,male,NA,110,16/06/2024

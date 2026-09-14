@@ -1,0 +1,96 @@
+{
+  "rows_before": 675,
+  "rows_after": 650,
+  "duplicates_removed": 25,
+  "duplicate_ids_resolved": 481,
+  "missing_values_before": 114,
+  "missing_values_imputed": 119,
+  "invalid_values_repaired": 604,
+  "invalid_cgpa_fixed": 121,
+  "attendance_normalized": 236,
+  "department_standardized": 520,
+  "gender_normalized": 464,
+  "dates_repaired": 483,
+  "suspicious_records_detected": 13,
+  "cleaning_success_rate": 100.0,
+  "data_quality_score": 63.7,
+  "column_summary": {
+    "student_id": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 650
+    },
+    "name": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 403
+    },
+    "department": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 6
+    },
+    "gender": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 3
+    },
+    "cgpa": {
+      "dtype": "float64",
+      "null_count": 0,
+      "unique_count": 379
+    },
+    "attendance": {
+      "dtype": "float64",
+      "null_count": 0,
+      "unique_count": 309
+    },
+    "enrollment_date": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 326
+    },
+    "attendance_percentage": {
+      "dtype": "float64",
+      "null_count": 0,
+      "unique_count": 309
+    },
+    "academic_risk_score": {
+      "dtype": "float64",
+      "null_count": 0,
+      "unique_count": 553
+    },
+    "risk_level": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 4
+    },
+    "support_priority": {
+      "dtype": "str",
+      "null_count": 0,
+      "unique_count": 4
+    }
+  },
+  "issues_log": [
+    {
+      "step": "Deduplication",
+      "description": "Removed 20 exact duplicate rows",
+      "count": 20
+    },
+    {
+      "step": "Imputation",
+      "description": "Imputed 90 missing CGPA values using department medians",
+      "count": 90
+    },
+    {
+      "step": "Imputation",
+      "description": "Imputed 29 missing attendance values using department medians",
+      "count": 29
+    },
+    {
+      "step": "AnomalyDetection",
+      "description": "Flagged 13 suspicious outlier records",
+      "count": 13
+    }
+  ]
+}
